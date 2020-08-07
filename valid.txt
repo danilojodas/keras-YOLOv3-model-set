@@ -1,0 +1,431 @@
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\000574-12.jpg 335,345,1277,1776,3 732,1011,788,1763,2 659,1479,751,1768,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\000574-19.jpg 465,1560,505,2002,2 564,1452,781,1981,1 230,3,1536,1977,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\000574-23.jpg 459,1424,522,1940,2 522,1368,817,1966,1 224,174,1535,1966,3 232,179,1532,1376,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\000574-33.jpg 990,1687,1043,1976,2 38,5,1527,1982,3 48,8,1527,1166,0 1217,1200,1536,1849,3 709,1774,835,1976,1 3,1245,417,1624,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\000574-34.jpg 585,1516,646,1982,2 680,1542,869,1979,1 1,8,1530,1984,3 3,8,1519,1268,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\000574-35.jpg 17,11,1536,1998,3 638,1647,827,1995,1 1001,1663,1069,2005,2 943,790,1535,1997,3 24,13,1532,1145,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\000574-36.jpg 793,1685,833,1992,2 640,1582,853,1937,1 111,5,1435,1929,3 122,11,1430,1516,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\000574-37.jpg 1056,1329,1096,1847,2 119,103,1267,1837,3 824,1471,988,1834,1 124,111,1259,1234,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\000574-39.jpg 135,274,1506,1721,3 632,1445,780,1711,1 519,1197,574,1737,2 148,279,1498,1195,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\000574-40.jpg 6,113,1536,1942,3 14,118,1530,1218,0 401,1558,469,1926,2 606,1574,809,1945,1 1072,1118,1532,1934,3 1082,1132,1532,1545,0 1330,1518,1451,1924,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\000574-41.jpg 51,184,1182,1884,3 574,1361,785,1876,1 838,1363,903,1908,2 64,182,1177,940,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\000574-42.jpg 968,1062,1121,1369,1 850,932,913,1391,2 336,116,2042,1369,3 340,122,1932,765,0 1225,769,1480,1532,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\000574-46.jpg 3,261,1536,1785,3 11,268,1532,1247,0 602,1475,645,1782,2 634,1594,795,1775,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\002712-10.jpg 377,1061,453,1905,2 472,1242,664,1900,1 296,155,1367,1900,3 301,161,1359,1050,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\002712-11.jpg 524,1190,588,1784,2 611,1350,767,1784,1 206,11,1530,1787,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\002712-15.jpg 832,1524,896,1897,2 119,137,1532,1871,3 624,1563,782,1868,1 1,516,809,1703,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\002712-18.jpg 517,1321,599,1843,2 612,1245,886,1855,1 425,218,1188,1861,3 433,226,1183,1308,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\002712-26.jpg 401,1295,483,1876,2 515,1290,801,1876,1 193,216,1230,1890,3 207,221,1220,1150,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\002712-32.jpg 512,1597,578,1987,2 641,1605,838,2005,1 275,5,1528,2011,3 286,8,1522,1618,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\002712-36.jpg 67,3,1524,1958,3 422,1555,480,1958,2 606,1571,796,1955,1 67,5,1536,1401,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\002712-47.jpg 374,901,452,1373,2 958,1167,1129,1444,1 336,3,1844,1448,3 340,7,1842,1162,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\004898-27.jpg 283,468,308,620,2 279,219,480,564,3 283,219,480,419,0 383,506,428,563,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\004898-31.jpg 125,503,147,609,2 1,6,376,615,3 4,8,374,342,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\004898-33.jpg 220,448,235,585,2 258,501,295,585,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\004898-35.jpg 120,478,132,603,2 142,511,212,612,1 38,36,480,613,3 419,462,462,572,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\004898-38.jpg 278,534,351,640,1 199,485,212,607,2 217,545,249,591,1 241,536,283,605,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\004898-43.jpg 221,430,239,622,2 246,454,290,627,1 337,329,478,639,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\004898-55.jpg 242,455,259,607,2 275,488,311,572,1 306,480,337,605,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\004898-59.jpg 4,1,453,624,3 217,471,228,614,2 241,523,309,620,1 9,4,449,400,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\005738-03.jpg 372,1042,459,1683,2 772,1363,970,1708,1 378,476,1336,1716,3 383,482,1322,1400,0 38,11,586,1600,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\005738-05.jpg 1086,1109,1223,1491,1 655,7,1847,1501,3 663,11,1839,1142,0 1682,524,2043,1285,3 1812,1162,1923,1275,1 1692,522,2037,1148,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\005738-06.jpg 836,1455,915,1861,2 601,1421,741,1826,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\005738-11.jpg 414,1139,499,1770,2 544,1165,771,1727,1 302,1364,378,1556,1 892,886,1092,2012,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\005738-14.jpg 546,1511,590,1984,2 656,1479,843,2013,1 27,137,1259,2021,3 27,145,1246,1471,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\005738-22.jpg 261,1026,380,1843,2 657,1374,799,1842,1 217,268,1530,1855,3 222,282,1536,1275,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\007811-07.jpg 232,518,253,619,2 307,542,352,618,1 71,34,391,619,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\007811-10.jpg 204,1,480,635,3 295,485,406,635,1 223,542,262,630,1 275,515,290,627,2 161,139,303,624,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\007811-15.jpg 1,8,325,604,3 201,509,214,596,2 2,90,323,473,0 145,501,183,596,1 318,89,480,602,3 410,495,471,600,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\007811-16.jpg 1,2,310,640,3 226,520,236,613,2 56,470,159,640,1 154,504,215,609,1 133,5,369,609,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\007811-17.jpg 345,411,360,618,2 204,464,254,600,1 1,3,420,601,3 3,9,420,452,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\007811-18.jpg 328,478,340,601,2
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\007811-19.jpg 1,1,162,640,3 23,374,131,636,1 176,521,189,623,2 208,534,270,628,1 159,2,386,626,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\007811-20.jpg 210,509,220,615,2 243,546,287,631,1 42,46,361,630,3 325,465,474,640,1 275,2,478,639,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\007811-23.jpg 331,216,480,606,3 405,555,444,607,1 286,529,300,623,2
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\007811-26.jpg 269,415,286,608,2 206,467,258,614,1 54,79,379,616,3 58,80,378,382,0 356,449,382,505,1 447,424,480,524,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\007811-27.jpg 3,40,300,457,3 167,331,200,457,1 4,41,299,238,0 257,126,462,454,3 297,263,341,449,1 258,126,462,257,0 469,254,488,469,2
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\007811-29.jpg 298,451,317,613,2 165,440,252,601,1 1,34,400,601,3 4,36,396,368,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\015814-0006.jpg 205,470,224,575,2 255,471,325,572,1 65,56,438,575,3 68,59,438,343,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\015814-0026.jpg 205,443,224,576,2 222,234,257,577,1 195,86,314,580,3 197,87,311,230,0 263,171,477,612,3 364,515,425,611,1 266,173,475,531,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\015814-0041.jpg 320,370,341,457,2 32,32,567,451,3 258,335,317,449,1 35,34,565,299,0 397,323,501,429,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\015814-0043.jpg 224,485,249,600,2 156,499,229,595,1 65,48,480,599,3 66,48,474,472,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\015814-0045.jpg 146,411,169,573,2 186,441,269,572,1 104,77,354,576,3 108,80,352,272,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\015814-0046.jpg 267,452,290,591,2 153,468,235,589,1 17,15,480,591,3 19,15,478,362,0 2,392,212,638,3 70,536,107,637,1 3,394,210,522,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\015814-0059.jpg 278,401,299,574,2 217,473,260,572,1 128,77,444,573,3 130,79,442,401,0 2,460,38,579,1 1,100,152,583,3 3,101,149,343,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\015814-0062.jpg 239,403,260,583,2 211,217,245,564,1 118,33,343,567,3 121,31,336,266,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\015814-0063.jpg 249,393,270,589,2 199,229,248,594,1 55,1,373,595,3 58,1,370,277,0 329,152,477,571,3 332,153,477,394,0 417,350,467,571,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\015814-0064.jpg 241,405,261,601,2 187,209,238,598,1 116,69,339,601,3 119,71,337,234,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\015814-0079.jpg 262,490,280,595,2 188,473,267,601,1 4,14,468,603,3 6,14,467,459,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\015814-0080.jpg 251,418,268,591,2 201,102,320,591,3 216,188,253,587,1 1,1,218,588,3 70,401,137,588,1 386,275,444,602,1 273,4,478,603,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\015814-0130.jpg 132,517,146,613,2 187,555,244,612,1 12,47,460,614,3 14,48,460,532,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\028037-10.jpg 328,337,391,457,1 163,322,181,460,2 127,9,637,461,3 129,11,636,372,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\028037-11.jpg 183,512,202,628,2 204,528,251,630,1 38,9,434,630,3 41,14,434,458,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\028037-13.jpg 342,393,397,465,1 156,1,603,466,3 158,3,602,313,0 292,369,303,465,2
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\028037-19.jpg 188,524,247,617,1 98,522,158,640,1 277,501,292,618,2
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\028037-23.jpg 116,21,346,602,3 272,422,289,612,2 199,295,265,601,1 120,23,343,309,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\028037-24.jpg 262,403,277,622,2 385,510,479,617,1 304,438,354,569,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\028037-56.jpg 316,345,329,458,2 247,368,311,457,1 28,1,627,457,3 31,2,627,377,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\032743-02.jpg 835,1490,879,1867,2 663,1267,845,1861,1 1282,1554,1440,1830,1 145,64,1308,1861,3 150,67,1306,1017,0 874,275,1536,1835,3 882,277,1529,1046,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\032743-03.jpg 617,1530,671,1918,2 674,1517,874,1917,1 8,1,1500,1919,3 16,9,1492,1025,0 1040,732,1532,1901,3 1429,1561,1524,1896,1 1050,740,1529,1288,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\032743-12.jpg 632,1611,688,1976,2 272,150,1356,2047,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\032743-13.jpg 956,1107,985,1354,2 295,256,1666,1356,3 989,1222,1089,1348,1 307,258,1662,1018,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\032743-17.jpg 667,1528,707,1904,2 719,1532,909,1903,1 138,13,1324,1895,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\036568-05.jpg 635,1580,679,1924,2 706,1601,927,1940,1 6,5,1536,1945,3 11,1,1524,956,0 1337,1593,1479,1869,1 1153,501,1534,1875,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\036568-11.jpg 462,1361,511,1912,2 550,1432,700,1925,1 200,248,1508,1930,3 206,248,1506,1085,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\042501-101.jpg 236,399,260,545,2 82,412,206,555,1 78,105,405,556,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\042501-12.jpg 146,476,159,596,2 4,98,454,593,3 195,509,274,595,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\042501-22.jpg 266,340,282,469,2 339,320,361,464,1 8,1,616,464,3 11,2,616,260,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\042501-25.jpg 313,2,478,461,3 285,375,320,460,1 256,8,367,460,3 481,3,637,474,3 381,358,424,461,1 507,283,635,475,1 267,343,278,460,2
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\042501-35.jpg 229,418,245,587,2 112,484,165,611,1 33,86,293,624,3 36,88,291,473,0 287,502,338,626,1 240,89,479,627,3 245,90,476,496,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\042501-43.jpg 125,1,485,464,3 245,354,260,464,2 309,381,380,462,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\042501-55.jpg 233,458,257,636,2 174,473,227,635,1 137,51,479,636,3 141,53,477,381,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\042501-57.jpg 179,476,193,610,2 201,506,254,609,1 122,5,400,609,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\042501-64.jpg 147,373,168,620,2 220,477,292,619,1 5,1,471,620,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\042501-73.jpg 290,487,302,592,2 209,482,258,583,1 89,76,345,582,3 91,78,345,294,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\042501-82.jpg 294,451,308,626,2 222,459,263,622,1 52,1,436,622,3 56,5,433,332,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\042501-88.jpg 240,490,254,588,2 56,33,456,591,3 147,526,202,589,1 58,34,454,310,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\042501-90.jpg 259,444,271,618,2 154,481,254,624,1 124,6,403,626,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\042501-93.jpg 158,384,176,582,2 116,466,163,575,1 82,88,416,580,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\044024-15.jpg 256,382,269,588,2 44,84,453,593,3 204,456,254,589,1 48,84,445,299,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\044024-20.jpg 120,306,142,460,2 304,424,346,467,1 127,68,560,468,3 130,71,558,380,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\044024-22.jpg 341,317,353,463,2 302,328,341,464,1 232,114,443,465,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\044024-25.jpg 143,470,163,595,2 174,488,237,604,1 98,142,294,603,3 101,144,291,409,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\044024-31.jpg 283,494,299,628,2 130,510,194,631,1 84,57,477,632,3 87,58,476,500,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\044024-33.jpg 304,410,326,592,2 153,451,203,591,1 94,40,347,590,3 97,42,344,341,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\044024-44.jpg 198,500,222,626,2 259,520,317,638,1 328,516,416,639,1 217,539,252,626,1 3,1,477,638,3 3,1,472,280,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\044202-19.jpg 232,1561,306,1907,2 506,1596,679,1909,1 48,167,1529,1906,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\044202-38.jpg 876,1359,953,1941,2 629,1504,748,1856,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\044202-39.jpg 466,1404,519,1855,2 645,1517,769,1872,1 253,43,1532,1877,3 266,54,1527,1046,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\044202-46.jpg 735,649,801,1351,2 921,1011,1077,1353,1 297,175,1713,1351,3 307,187,1703,907,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\044202-47.jpg 812,1146,877,1815,2 224,301,1348,1764,3 240,317,1329,1201,0 535,1301,779,1743,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\061123-14.jpg 239,506,255,596,2 201,494,231,594,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\061123-18.jpg 46,34,342,319,0 282,446,299,588,2 43,30,384,580,3 305,418,377,576,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\061123-19.jpg 228,417,250,590,2 173,434,224,582,1 1,59,477,584,3 4,64,474,362,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\061123-26.jpg 263,456,278,579,2 197,424,258,577,1 53,93,416,580,3 58,96,412,421,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\061123-28.jpg 184,494,201,583,2 212,435,260,580,1 58,83,366,580,3 61,88,361,373,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\061123-29.jpg 248,465,264,568,2 205,426,248,569,1 15,107,474,570,3 20,110,470,393,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\061123-30.jpg 124,496,145,612,2 148,472,197,618,1 4,72,474,617,3 8,76,469,391,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\061123-31.jpg 247,452,264,612,2 194,449,244,606,1 12,12,475,606,3 16,14,472,340,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\061123-32.jpg 158,492,174,603,2 187,457,267,606,1 3,24,474,605,3 6,27,474,430,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\061123-35.jpg 205,512,218,612,2 224,496,268,611,1 4,99,349,609,3 8,101,347,391,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\061123-36.jpg 204,501,219,605,2 159,473,208,588,1 2,55,478,589,3 5,58,475,443,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\061123-51.jpg 268,524,279,618,2 214,488,267,615,1 83,16,476,618,3 86,19,471,342,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\061123-59.jpg 185,373,208,573,2 331,318,433,501,3 360,423,406,499,1 333,436,362,492,1 57,127,424,572,3 61,129,420,409,0 255,497,294,571,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\061123-64.jpg 262,413,279,590,2 195,484,233,580,1 46,129,372,580,3 49,132,371,318,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\065811-101.jpg 355,330,368,469,2 302,386,336,463,1 193,1,629,464,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\065811-110.jpg 58,398,85,588,2 91,492,154,584,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\065811-112.jpg 38,43,470,407,0 179,481,222,639,1 229,495,241,635,2 36,41,474,640,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\065811-26.jpg 259,261,279,472,2 345,338,389,461,1 138,29,568,462,3 141,31,567,336,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\065811-29.jpg 42,391,61,621,2 84,416,192,609,1 1,164,437,610,3 4,168,434,414,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\065811-44.jpg 75,359,112,600,2 217,397,280,598,1 53,55,480,602,3 56,55,476,409,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\065811-48.jpg 415,328,437,467,2
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\065811-51.jpg 286,449,314,606,2 228,484,287,601,1 1,1,404,603,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\065811-56.jpg 153,300,168,468,2 172,351,226,468,1 58,75,562,467,3 61,77,561,388,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\065811-57.jpg 129,480,150,620,2 148,493,203,621,1 45,1,407,622,3 48,4,405,359,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\065811-59.jpg 154,475,173,616,2 198,391,254,614,1 4,20,420,615,3 6,22,417,375,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\065811-60.jpg 214,418,232,634,2 247,523,301,636,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\065811-61.jpg 210,514,265,611,1 334,491,352,607,2 3,62,476,611,3 5,64,475,414,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\065811-63.jpg 144,386,169,618,2 225,572,269,622,1 83,105,480,624,3 87,108,477,475,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\065811-81.jpg 151,464,171,620,2 199,509,256,624,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\065811-84.jpg 277,485,291,612,2 204,477,271,606,1 143,43,479,607,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\065811-85.jpg 176,471,196,618,2 220,507,291,627,1 5,1,463,627,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\065811-88.jpg 281,483,297,606,2 181,468,241,593,1 33,1,462,596,3 36,2,462,397,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\065811-99.jpg 408,257,422,440,2
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\078417-16.jpg 215,426,225,553,2 236,445,275,555,1 4,65,479,558,3 7,65,480,412,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\078417-25.jpg 270,407,287,573,2 225,468,268,560,1 1,83,480,563,3 1,85,478,451,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\088200-18.jpg 170,466,184,628,2 238,550,285,621,1 24,30,479,622,3 28,32,479,376,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\088200-19.jpg 192,415,207,601,2 251,501,306,593,1 25,28,479,596,3 29,32,477,397,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\088200-20.jpg 199,437,214,623,2
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\088200-21.jpg 170,372,187,590,2 268,484,321,588,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\088200-23.jpg 267,463,279,604,2 174,490,260,607,1 15,3,445,610,3 17,5,442,484,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\088200-35.jpg 299,509,312,624,2 215,499,266,618,1 166,35,381,622,3 169,37,378,317,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\088200-38.jpg 142,491,224,599,1 239,469,259,605,2 57,48,442,600,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\091413-29.jpg 244,277,267,439,2 341,372,421,453,1 89,14,528,454,3 92,14,525,372,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\091413-30.jpg 169,481,185,618,2 16,64,449,618,3 18,66,447,481,0 198,479,262,618,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\091413-36.jpg 216,363,234,536,2 170,393,215,525,1 170,117,397,526,3 172,120,395,416,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\105171-16.jpg 903,1363,944,1799,2 712,1521,910,1800,1 7,216,1533,1800,3 15,224,1523,1466,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\105171-19.jpg 876,1311,931,1934,2 660,1392,836,1918,1 375,226,1228,1921,3 389,237,1223,1084,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\105171-30.jpg 1176,864,1223,1428,2 774,1134,886,1424,1 447,152,1284,1428,3 451,156,1280,1236,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\105171-32.jpg 963,997,1003,1459,2 1000,809,1119,1456,1 1603,1073,1733,1534,1 1366,385,1956,1536,3 1376,389,1952,1052,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\117820-10.jpg 262,458,279,587,2 218,480,265,586,1 2,133,451,589,3 4,134,448,471,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\121657-10.jpg 841,1452,869,1837,2 683,1500,828,1845,1 28,176,1181,1845,3 36,184,1181,1484,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\121657-15.jpg 602,1303,657,1714,2 733,1274,904,1676,1 231,179,1489,1679,3 239,182,1481,1229,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\121657-18.jpg 805,1345,854,1846,2 541,1213,796,1863,1 44,379,1531,1863,3 49,387,1528,1250,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\121657-19.jpg 484,1282,562,2002,2 612,445,820,1997,1 296,1,1425,2003,3 25,558,1412,1834,3 33,561,1412,1290,0 302,5,1415,676,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\121657-20.jpg 440,1361,520,1982,2 510,663,739,1953,1 181,8,1160,1953,3 189,13,1152,1061,0 1025,245,1536,1838,3 1328,826,1525,1826,1 1033,253,1533,824,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\123684-20.jpg 381,704,410,944,2 310,423,390,943,1 111,71,650,945,3 114,70,649,440,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\126519-13.jpg 866,1482,907,1830,2 628,1329,810,1832,1 152,11,1328,1834,3 162,18,1323,1290,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\126519-41.jpg 980,1347,1454,1826,3 1175,1676,1275,1824,1 991,1347,1449,1587,0 617,1571,696,1958,2 1157,1074,1536,1849,3 1391,1676,1496,1837,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\126519-45.jpg 945,1637,1111,1905,1 643,1479,764,1842,1 303,145,1445,1842,3 314,150,1440,1137,0 572,1592,614,1890,2
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\134465-15.jpg 1188,1376,1267,1821,2 778,1266,1183,1818,1 117,305,1467,1824,3 122,311,1459,1479,0 607,1495,780,2045,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\134465-21.jpg 484,1582,531,1863,2 610,1534,754,1855,1 175,1,1365,1861,3 181,3,1357,1074,0 1023,1561,1128,1758,1 910,782,1433,1763,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\134465-29.jpg 365,1190,407,1726,2 736,1247,936,1718,1 399,316,1289,1726,3 407,324,1281,1382,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\13471-2950.jpg 92,76,418,612,3 226,448,269,611,1 271,425,289,610,2 94,78,417,375,0 1,224,170,576,3 53,464,88,576,1 4,226,169,368,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\13471-2961.jpg 142,472,158,620,2 196,530,272,618,1 2,3,307,620,3 3,5,304,347,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\13471-2963.jpg 201,417,222,608,2 266,480,323,602,1 8,137,425,604,3 9,139,424,403,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\13471-2968.jpg 301,270,317,462,2 362,380,404,451,1 173,92,536,452,3 175,93,535,232,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\138410-20.jpg 332,383,343,459,2 269,378,313,452,1 190,55,636,454,3 192,56,635,348,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\138410-27.jpg 236,335,248,426,2 305,347,366,436,1 81,58,610,436,3 84,60,607,336,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\138410-29.jpg 188,552,226,610,1 5,127,436,611,3 8,130,435,404,0 261,539,275,614,2
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\138410-35.jpg 289,356,300,591,2 167,395,224,559,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\148067-10.jpg 712,1453,765,1907,2 452,1637,604,1861,1 7,5,1536,1866,3 17,5,1536,1391,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\148067-12.jpg 684,1308,736,1795,2 870,1500,981,1755,1 160,261,1270,1761,3 170,266,1278,1421,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\148067-19.jpg 487,1474,522,1834,2 548,926,816,1832,1 503,203,1522,1837,3 511,205,1522,811,0 814,205,1527,1829,3 908,882,1037,1829,1 824,211,1524,832,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\148067-20.jpg 687,1595,894,1920,1 975,1603,1012,1921,2 2,3,1394,1921,3 10,13,1391,1213,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\148067-25.jpg 431,1390,481,1882,2
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\148067-26.jpg 641,1442,679,1843,2 546,1026,754,1847,1 489,105,1378,1847,3 499,111,1370,1095,0 278,821,533,1842,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\148067-33.jpg 719,1613,877,1961,1 929,1666,972,1971,2 324,105,1456,1963,3 332,105,1453,1411,0 3,184,908,1971,3 3,192,908,1466,0 8,1474,179,1968,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\148067-35.jpg 794,1466,857,1901,2 620,1416,817,1890,1 10,5,1520,1897,3 15,8,1515,1150,0 1312,1474,1444,1847,1 915,503,1536,1850,3 923,508,1533,1458,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\148067-36.jpg 1376,826,1423,1410,2
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\148067-37.jpg 761,1321,812,1863,2 467,1526,699,1826,1 299,297,1536,1833,3 304,300,1536,1474,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\148067-48.jpg 830,1268,883,1851,2 623,1326,762,1847,1 91,453,1407,1850,3 99,455,1399,1295,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\148067-52.jpg 512,1421,570,1853,2 628,1579,794,1861,1 54,174,1523,1868,3 62,176,1512,1447,0 1141,1576,1315,1861,1 1033,1071,1523,1863,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\148067-53.jpg 865,1268,923,1730,2 565,1424,781,1729,1 386,321,1352,1729,3 389,326,1346,1140,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\148067-56.jpg 779,1529,833,1930,2 591,1697,749,1905,1 2,55,1291,1908,3 7,61,1283,1182,0 1004,1697,1144,1855,1 849,1018,1265,1855,3 1267,1387,1412,1826,1 1070,840,1531,1824,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\148067-57.jpg 566,1229,625,1762,2 657,1453,886,1755,1 378,361,1086,1750,3 381,363,1067,940,0 1194,987,1436,1650,1 881,142,1536,1648,3 889,150,1536,867,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\148067-63.jpg 763,1468,810,1867,2 836,1529,1004,1890,1 623,976,1381,1892,3 628,987,1381,1582,0 646,1482,741,1829,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\149829-10.jpg 150,446,168,609,2 206,454,258,604,1 68,30,429,607,3 67,32,428,465,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\149829-18.jpg 210,506,223,615,2 361,433,472,639,1 69,95,358,618,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\149829-22.jpg 221,368,247,623,2
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\149829-23.jpg 74,460,101,626,2
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\149829-24.jpg 219,415,237,608,2 233,341,290,607,1 36,17,458,609,3 39,18,457,405,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\149829-25.jpg 171,444,189,595,2 214,470,263,579,1 108,66,438,581,3 112,68,434,464,0 1,230,103,406,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\149829-26.jpg 284,364,302,573,2 236,480,280,579,1 87,48,383,581,3 90,50,380,459,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\149829-28.jpg 78,49,461,314,0 206,419,260,616,1 259,401,280,613,2 78,47,462,618,3 180,483,218,551,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\149829-30.jpg 57,38,390,640,3 212,462,257,639,1 58,41,386,414,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\149829-38.jpg 346,325,478,539,3 415,487,451,538,1 200,464,216,597,2 91,63,377,596,3 218,420,254,595,1 94,64,376,403,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\149829-45.jpg 303,479,320,618,2 90,50,399,620,3 92,52,395,324,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\149829-46.jpg 168,416,188,589,2 209,459,256,591,1 143,205,270,593,3 257,302,378,639,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\149829-51.jpg 476,1350,549,1915,2 570,1500,744,1937,1 341,640,1357,1929,3 354,653,1346,1468,0 1191,1192,1528,1787,3 1402,1524,1486,1787,1 1212,1200,1523,1495,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\149829-52.jpg 537,1242,631,1921,2 649,1021,828,1940,1 275,158,1210,1942,3 283,161,1210,1332,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\149829-59.jpg 859,1529,920,1944,2 712,1526,886,1929,1 220,121,1533,1932,3 228,129,1528,1416,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\151246-20.jpg 557,1076,644,1891,2 665,1108,857,1895,1 365,179,1067,1895,3 373,187,1062,1105,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\15130-1852.jpg 289,501,304,620,2 223,510,283,617,1 5,47,476,617,3 8,49,475,428,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\15130-1854.jpg 1,1,478,618,3 180,533,242,618,1 245,495,259,620,2 5,5,477,336,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\152781-10.jpg 360,1300,446,1935,2 523,1468,810,1934,1 141,353,1525,1940,3 149,361,1525,1487,0 939,1221,1167,1550,3 1225,1205,1520,1595,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\162990-25.jpg 158,382,179,525,2 204,376,272,529,1 22,90,416,531,3 24,90,414,379,0 266,430,317,497,1 248,227,462,500,3 250,231,458,398,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\162990-27.jpg 209,468,268,590,1 1,62,478,591,3 3,64,476,468,0 159,433,176,579,2
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\162990-32.jpg 237,472,258,581,2 256,458,301,582,1 145,80,421,586,3 146,80,420,351,0 2,120,335,367,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\168106-10.jpg 536,1526,594,1990,2 662,1400,839,1984,1 431,1658,546,1895,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\168106-11.jpg 405,1350,467,1817,2 496,1626,646,1821,1 231,161,1467,1832,3 239,166,1465,1253,0 704,1284,1031,1640,3 710,1290,1031,1550,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\168106-13.jpg 604,1347,686,1864,2 683,1629,867,1861,1 2,140,1494,1861,3 10,140,1499,1124,0 986,1032,1536,1581,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\168106-25.jpg 889,1140,965,1847,2 783,1355,899,1837,1 257,429,1328,1847,3 270,434,1320,1303,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\168106-29.jpg 485,1171,560,1788,2 357,337,1494,1729,3 365,340,1486,1297,0 678,1505,815,1711,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\168106-33.jpg 613,1042,689,1757,2 786,1332,939,1755,1 181,221,1536,1762,3 189,226,1533,1332,0 52,1261,165,1629,1 1,253,320,1629,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\170038-13.jpg 156,867,694,1395,3 458,1289,549,1389,1 160,875,690,1197,0 1145,1234,1178,1479,2 945,1262,1113,1477,1 60,14,1194,1479,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\170038-15.jpg 1307,814,1370,1377,2 688,1060,886,1377,1 337,207,1313,1383,3 345,209,1305,1089,0 3,418,423,1120,3 176,973,272,1118,1 7,422,415,860,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\170038-16.jpg 583,29,1439,2024,3 699,1832,799,2021,1 798,1825,839,2025,2 594,34,1420,1645,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\170038-22.jpg 481,1411,546,1807,2 541,1461,691,1818,1 281,137,1320,1826,3 291,147,1310,868,0 1041,1479,1170,1774,1 765,203,1528,1782,3 778,211,1531,895,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\170038-24.jpg 795,1505,860,1874,2 599,1432,773,1874,1 265,168,1394,1882,3 273,176,1381,1055,0 1110,1603,1291,1842,1 912,413,1525,1845,3 923,418,1515,1297,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\170038-28.jpg 612,1476,670,1764,2 57,392,1412,1776,3 62,397,1407,1390,0 1086,1205,1536,1633,3 1094,1213,1528,1487,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\170038-32.jpg 607,1542,662,1837,2 675,1524,815,1840,1 96,340,1333,1842,3 104,345,1331,1205,0 1054,1592,1186,1821,1 854,511,1507,1826,3 2,1516,162,1837,1 4,5,702,1840,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\170038-38.jpg 6,3,1048,1750,3 237,192,1387,1742,3 519,1463,656,1734,1 790,1547,885,1695,1 574,563,1482,1692,3 969,1550,1069,1658,1 914,979,1498,1655,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\170038-45.jpg 693,1435,766,1862,2 741,1434,923,1845,1 267,32,1078,1855,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\170038-46.jpg 604,1511,678,1932,2 662,1503,846,1940,1 54,3,1536,1944,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\170038-47.jpg 552,1482,625,1896,2 617,1553,831,1895,1 199,16,1189,1903,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\170038-50.jpg 604,1566,675,1911,2 681,1692,857,1921,1 7,1,1196,1918,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\170038-54.jpg 1,1,1536,1955,3 591,1647,804,1950,1 7,5,1536,1328,0 540,1586,599,1933,2
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\170038-57.jpg 601,1366,679,1843,2 667,1487,907,1837,1 259,24,1449,1845,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\170038-60.jpg 1047,1263,1115,1733,2 833,1200,1062,1726,1 7,200,1310,1732,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\170038-61.jpg 1,45,1423,1803,3 552,1324,633,1803,2 694,1411,896,1800,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\170038-64.jpg 670,1337,752,1829,2 731,1150,989,1834,1 183,134,1262,1840,3 189,140,1257,1226,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\170038-65.jpg 557,1390,739,1840,1 731,1400,804,1847,2 186,95,1146,1845,3 194,103,1141,1153,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\175986-16.jpg 410,1150,502,1878,2 604,1463,849,1882,1 275,284,1528,1892,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\175986-32.jpg 757,1384,839,1931,2 399,1542,578,1918,1 38,55,1349,1926,3 36,58,1346,1529,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\175986-36.jpg 435,1240,546,1842,2 536,1440,659,1850,1 215,140,1501,1853,3 215,140,1499,1418,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\176109-18.jpg 291,333,479,599,3 292,334,478,509,0 394,523,441,597,1 135,359,269,561,3 137,361,265,487,0 189,521,217,562,1 239,455,262,550,2
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\176109-47.jpg 150,413,230,562,1 14,71,449,562,3 16,72,447,338,0 1,305,73,488,3 107,396,133,568,2
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\176109-49.jpg 267,418,296,563,2 167,429,227,557,1 139,113,319,557,3 142,116,316,405,0 1,209,191,486,3 60,430,106,486,1 4,212,191,395,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\176109-52.jpg 207,440,233,616,2 391,492,470,638,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\176109-55.jpg 314,330,336,443,2 345,349,394,433,1 156,20,532,434,3 158,20,532,278,0 275,328,312,419,1 155,240,260,407,3 190,370,217,407,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\176109-67.jpg 1,56,386,593,3 153,472,234,590,1 231,484,254,597,2 3,59,382,390,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\176109-73.jpg 172,443,192,566,2 199,433,270,572,1 60,55,466,575,3 63,55,462,371,0 390,399,480,534,3 430,491,463,534,1 391,401,478,492,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\177091-17.jpg 496,1361,573,1948,2 583,1211,786,1932,1 86,208,1536,1940,3 91,211,1531,1253,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\177091-19.jpg 612,1624,680,1979,2 702,1684,939,1992,1 7,3,1536,2003,3 12,5,1533,1432,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\177091-25.jpg 536,1445,609,1901,2 599,1453,767,1879,1 31,11,1473,1887,3 110,1029,933,1716,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\177091-27.jpg 907,1632,981,1992,2 596,1550,796,1990,1 399,68,1531,1990,3 1207,1318,1531,1847,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\177091-34.jpg 346,1237,425,1949,2 515,1340,770,1940,1 7,247,1470,1947,3 15,253,1465,1224,0 1244,1416,1386,1640,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\177091-37.jpg 356,1234,449,1870,2 502,1405,715,1874,1 162,116,1510,1879,3 178,121,1507,1445,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\177091-41.jpg 905,1303,991,1959,2 496,461,1431,1911,3 578,1632,783,1905,1 504,468,1428,1300,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\177911-190.jpg 455,747,485,908,2 376,771,460,914,1 1,2,766,915,3 7,8,764,766,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\177911-210.jpg 429,589,466,874,2 473,786,533,880,1 254,10,768,885,3 260,14,764,658,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\182168-10.jpg 96,371,127,624,2
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\182168-11.jpg 281,309,306,448,2 329,354,395,443,1 112,39,549,444,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\182168-12.jpg 145,384,180,570,2
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\182168-15.jpg 249,327,268,457,2 303,325,367,452,1 15,131,477,454,3 16,132,475,306,0 518,300,621,480,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\182400-49.jpg 226,469,243,585,2 263,478,322,583,1 37,26,466,586,3 39,28,466,410,0 33,468,95,555,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\182400-83.jpg 54,38,478,640,3 248,264,325,637,1 54,38,475,294,0 183,371,232,601,1 4,34,480,602,3 8,34,475,311,0 157,472,175,609,2
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\182400-88.jpg 348,309,368,461,2 264,382,309,452,1 1,5,621,453,3 1,5,619,302,0 593,286,637,440,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\182400-89.jpg 267,388,291,594,2 188,476,253,605,1 31,1,445,607,3 34,3,441,337,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\182400-90.jpg 64,26,479,614,3 271,511,289,621,2 200,509,272,618,1 67,26,476,379,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\187810-16.jpg 483,1376,565,1838,2 609,1432,770,1840,1 191,5,1378,1850,3 199,8,1372,1474,0 1107,1137,1528,1621,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\189111-20.jpg 591,1466,665,1813,2 662,1529,815,1808,1 143,134,1380,1813,3 154,142,1375,1600,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\189111-24.jpg 699,1395,791,1883,2 549,1424,728,1876,1 220,229,1528,1884,3 225,232,1520,1234,0 833,1303,1157,1632,3 1112,1361,1454,1629,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\189111-30.jpg 780,1440,867,1947,2 643,1708,804,1932,1 7,187,1536,1937,3 15,190,1536,1086,0 1178,1308,1504,1771,3 1186,1316,1499,1634,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\189111-37.jpg 758,1628,822,1951,2 630,1533,833,1950,1 1,5,1536,1953,3 1246,1134,1483,1729,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\189111-45.jpg 83,166,1480,1055,0 541,1179,651,1800,2 667,1129,799,1797,1 80,161,1480,1800,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\189111-46.jpg 1,227,1486,1084,0 572,1515,626,1875,2 653,1546,831,1892,1 1,218,1488,1897,3 1104,863,1536,1811,3 1109,866,1536,1362,0 1415,1479,1536,1807,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\189111-47.jpg 643,1447,730,1889,2 720,1432,930,1884,1 112,163,1336,1892,3 115,166,1330,1053,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\189111-54.jpg 875,1371,972,1892,2 662,1403,830,1890,1 12,161,1488,1895,3 20,166,1478,1292,0 4,1029,307,1676,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\190748-26.jpg 167,463,183,599,2 204,470,258,603,1 4,13,437,605,3 7,15,436,418,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\190748-48.jpg 191,472,215,591,2 193,372,273,590,1 81,51,416,591,3 83,52,415,303,0 370,305,477,554,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\190748-51.jpg 390,332,424,601,2 190,518,243,568,1 149,36,432,570,3 153,37,431,373,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\190748-52.jpg 312,428,336,580,2 241,407,285,574,1 93,84,433,578,3 95,85,431,346,0 423,398,478,524,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\190748-59.jpg 138,358,160,561,2 206,405,250,567,1 63,114,450,568,3 67,117,450,401,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\190748-63.jpg 192,418,209,606,2 257,514,334,605,1 2,59,477,606,3 5,60,477,394,0 380,526,453,639,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\190748-64.jpg 146,474,163,618,2 201,548,264,625,1 2,85,480,626,3 6,88,476,426,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\192716-13.jpg 741,1453,828,1996,2 512,1229,749,1990,1 478,8,1522,1995,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\195855-110.jpg 893,1297,935,1864,2 577,1540,719,1847,1 353,195,1527,1853,3 361,197,1522,1390,0 1190,913,1535,1761,3 1198,913,1522,1387,0 1301,1453,1458,1750,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\195855-111.jpg 36,154,1530,1276,0 343,1279,438,1879,2 443,1434,720,1882,1 33,153,1530,1887,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\195855-12.jpg 746,1379,814,1817,2 570,1345,751,1800,1 365,218,1233,1808,3 954,1221,1262,1755,3 1338,1311,1533,1618,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\195855-133.jpg 883,979,948,1545,2 137,324,1187,1461,3 145,326,1182,1032,0 901,540,1490,1461,3 908,547,1482,1016,0 1156,1232,1232,1455,1 1237,561,1532,1466,3 1243,563,1527,1079,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\195855-138.jpg 871,1311,962,1819,2 665,1392,849,1792,1 88,140,1520,1800,3 96,142,1520,1308,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\195855-17.jpg 131,393,1112,1216,0 743,1458,865,1845,1 122,387,1117,1850,3 857,1567,903,1859,2 940,1230,1347,1825,3 1188,1525,1285,1824,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\195855-23.jpg 833,1418,886,1792,2 672,1287,841,1790,1 204,218,1517,1790,3 212,224,1512,1290,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\195855-24.jpg 743,1643,793,1916,2 638,1600,772,1913,1 159,18,1375,1918,3 167,24,1365,1145,0 804,1126,1441,1871,3 815,1137,1433,1721,0 1062,1655,1183,1863,1 301,1518,465,1953,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\195855-34.jpg 8,176,1001,1797,3 14,176,995,1474,0 101,1405,224,1792,1 785,1347,840,1813,2 906,716,1532,1766,3 914,721,1535,1461,0 1066,1447,1222,1768,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\195855-36.jpg 875,1490,949,1869,2 154,182,1299,1876,3 162,187,1296,1432,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\195855-50.jpg 742,1555,815,1899,2 580,1732,738,1900,1 462,211,1272,1905,3 475,218,1262,950,0 933,505,1528,1850,3 1101,1618,1238,1845,1 1267,1190,1530,1800,3 946,508,1525,1274,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\195855-51.jpg 525,1490,592,1844,2 388,1508,549,1853,1 12,103,1443,1861,3 20,111,1436,1140,0 828,1284,978,1792,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\195855-76.jpg 757,1103,870,1731,2 649,1082,775,1703,1 165,337,1333,1711,3 175,340,1325,1155,0 980,1163,1322,1584,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\195855-83.jpg 291,482,1096,1437,0 844,1313,925,1858,2 504,1453,675,1853,1 20,1126,372,1574,3 286,471,1101,1858,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\195855-84.jpg 1222,926,1284,1340,2 969,901,1145,1330,1 131,303,1957,1332,3 139,305,1947,952,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\195855-86.jpg 752,1368,838,1866,2 467,1495,686,1855,1 399,300,1530,1863,3 9,237,822,1832,3 15,245,815,905,0 151,913,399,1805,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\195855-90.jpg 680,1226,772,1859,2 517,1497,678,1861,1 233,513,1183,1871,3 243,521,1172,1261,0 1051,1458,1167,1703,1 938,1040,1525,1711,3 954,1050,1525,1447,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\195855-94.jpg 659,1358,733,1795,2 707,1408,888,1808,1 91,208,1351,1811,3 99,211,1349,890,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\197645-34.jpg 593,1434,667,1895,2 680,1500,865,1890,1 4,205,1525,1903,3 12,211,1520,1618,0 1251,1516,1457,1813,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\197645-42.jpg 1054,1205,1117,1462,2 171,3,1969,1438,3 178,7,1969,1244,0 839,1267,988,1436,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\216402-14.jpg 649,1187,743,1666,2 733,1290,893,1663,1 596,413,1530,1671,3 612,418,1525,1050,0 9,3,630,1721,3 20,8,628,971,0 17,987,167,1711,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\216402-20.jpg 877,865,953,1364,2 1004,1007,1251,1395,1 323,140,1798,1401,3 331,148,1792,934,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\216402-26.jpg 696,1303,812,1842,2 383,1368,601,1813,1 315,258,1380,1816,3 322,268,1370,1379,0 1196,1208,1528,1726,3 1372,1561,1472,1721,1 1204,1211,1517,1540,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\216402-51.jpg 967,1253,1083,1858,2 112,166,1533,1868,3 120,171,1528,1303,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\216402-79.jpg 646,1512,726,1894,2 718,1758,799,1903,1 254,253,1536,1906,3 262,258,1530,916,0 1154,1605,1272,1853,1 949,695,1486,1861,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\216402-88.jpg 883,1282,984,1861,2 615,1347,796,1832,1 241,192,1204,1840,3 7,568,259,1332,3 251,200,1201,1024,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\22713-3204.jpg 293,321,305,449,2 317,337,370,447,1 68,1,575,447,3 68,2,574,329,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\22713-3252.jpg 127,503,154,620,2 183,539,223,623,1 2,7,478,623,3 4,9,479,470,0 259,380,463,604,3 262,380,461,517,0 347,570,372,604,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\27421-2338.jpg 304,493,318,622,2 200,535,264,619,1 2,2,480,618,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\27421-2339.jpg 261,475,278,605,2 177,481,259,608,1 4,3,480,608,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\27421-2345.jpg 217,408,236,605,2 251,477,318,612,1 86,24,427,611,3 323,457,373,555,1 379,491,410,533,1 434,460,468,530,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\27421-2346.jpg 175,449,192,616,2 197,459,297,620,1 16,42,475,619,3 18,42,473,346,0 321,526,363,582,1 288,118,479,582,3 404,479,441,575,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\27421-2349.jpg 245,505,257,615,2 265,529,317,614,1 88,1,466,615,3 92,3,465,200,0 116,366,238,570,3 167,529,195,569,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\27421-2351.jpg 280,441,293,606,2 255,360,283,608,1 36,15,467,610,3 36,15,468,280,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\29939-2721.jpg 336,288,355,562,2 273,398,314,565,1 102,31,404,565,3 102,32,403,261,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\29939-2725.jpg 276,304,288,447,2 210,306,266,445,1 14,99,328,446,3 16,101,327,323,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\29939-2728.jpg 351,275,366,468,2 247,324,312,462,1 1,32,557,464,3 1,34,557,287,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\29939-2733.jpg 199,473,217,633,2 242,426,292,623,1 3,1,450,625,3 3,1,450,205,0 4,119,258,550,3 4,120,255,274,0 155,433,187,548,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\29939-2734.jpg 290,458,306,587,2 264,504,295,588,1 18,7,377,589,3 18,9,377,253,0 323,311,397,639,1 1,156,241,549,3 27,460,70,547,1 4,156,241,464,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\29939-2740.jpg 266,483,282,614,2 208,529,246,615,1 3,4,373,617,3 3,5,371,358,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\29939-2746.jpg 249,422,263,593,2 300,483,354,591,1 1,30,459,592,3 3,32,459,304,0 1,179,199,552,3 1,179,199,305,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\29939-2757.jpg 192,375,216,596,2 217,353,285,596,1 18,10,454,597,3 20,10,453,415,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\29939-2769.jpg 206,407,224,597,2 223,362,280,597,1 32,15,379,596,3 34,15,378,352,0 326,271,476,529,3 424,479,455,529,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\29939-2777.jpg 199,471,215,611,2 233,490,287,601,1 71,38,457,602,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\32204-03.jpg 661,1388,716,1843,2 745,1085,913,1859,1 148,104,1527,1859,3 153,104,1534,1054,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\32204-10.jpg 619,1330,669,1853,2 711,1438,840,1854,1 63,140,1456,1854,3 69,146,1453,1077,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\32204-15.jpg 676,1488,725,1985,2 734,1519,879,1988,1 306,801,1532,1990,3 321,806,1524,1461,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\32204-17.jpg 745,1077,808,1947,2 527,977,732,1896,1 119,127,1477,1901,3 127,138,1479,1290,0 908,1032,1056,1780,1 727,419,1527,1780,3 745,419,1527,1032,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\32204-22.jpg 890,1230,937,1796,2 463,1398,684,1785,1 13,167,1516,1790,3 19,169,1513,1396,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\353698-14.jpg 654,1640,692,1942,2 432,1380,640,1938,1 24,61,1369,1948,3 27,61,1361,1193,0 916,1269,1358,1856,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\353698-15.jpg 935,1148,973,1455,2 984,1205,1140,1473,1 346,86,1938,1475,3 355,92,1944,1144,0 1699,1267,1797,1397,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\353698-21.jpg 919,1540,993,1978,2 783,1576,943,1984,1 99,184,1393,1990,3 109,187,1386,1179,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\353698-24.jpg 696,1468,780,1906,2 557,1550,725,1887,1 20,287,1520,1897,3 28,292,1520,1247,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\353698-28.jpg 638,1218,717,1756,2 720,1211,888,1755,1 54,366,1383,1763,3 57,374,1372,1245,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\353698-38.jpg 911,1393,956,1925,2 632,1143,871,1946,1 295,254,1232,1951,3 306,261,1234,769,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\353698-42.jpg 574,1275,632,1726,2 663,1427,800,1717,1 106,517,1329,1722,3 113,519,1319,1282,0 1269,1406,1350,1617,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\353698-56.jpg 720,1531,761,1851,2 753,1432,911,1854,1 271,167,1398,1854,3 279,169,1395,1232,0 3,338,708,1877,3 866,1206,1492,1830,3 866,1217,1395,1575,0 1040,1585,1145,1825,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\353698-58.jpg 348,1272,411,1870,2 524,1264,713,1893,1 11,9,1529,1901,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\353698-62.jpg 708,1020,746,1470,2 823,1273,1018,1465,1 614,7,1789,1463,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\353698-63.jpg 898,1240,940,1752,2 271,1493,577,1780,1 13,1,1532,1782,3 1113,517,1536,1676,3 1424,1332,1534,1677,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\353698-73.jpg 608,1196,655,1697,2 703,1127,827,1698,1 169,427,1371,1706,3 961,446,1536,1701,3 177,430,1363,1135,0 977,451,1532,1172,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\354384-10.jpg 625,1254,690,1832,2 708,1167,821,1825,1 582,538,1187,1827,3 590,543,1187,1038,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\354384-26.jpg 569,1177,618,1620,2 692,1380,850,1640,1 206,422,1335,1640,3 211,432,1334,1340,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\354384-34.jpg 651,1494,698,1901,2 548,1611,653,1901,1 466,172,1387,1909,3 474,175,1382,1067,0 56,1669,245,1911,1 8,6,856,1922,3 24,11,853,1196,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\354384-42.jpg 406,1214,453,1807,2 487,1190,792,1819,1 490,298,1434,1819,3 495,301,1429,1196,0 871,1322,1100,2048,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\354384-43.jpg 561,1459,627,1959,2 640,1430,745,1961,1 98,93,1466,1967,3 106,96,1458,1164,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\354384-45.jpg 807,1068,928,1697,2 204,305,1265,1690,3 215,313,1259,1158,0 765,26,1536,1652,3 778,34,1528,1116,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\354384-46.jpg 565,1137,680,1873,2 738,1453,896,1890,1 396,155,1146,1892,3 404,163,1136,1353,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\354384-60.jpg 860,1232,954,1890,2 623,1458,794,1879,1 162,261,1125,1884,3 173,268,1120,1413,0 2,274,546,1545,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\354384-62.jpg 478,1366,565,1846,2 473,229,1020,1847,3 1265,1368,1536,1617,3 483,237,1020,1163,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\354384-68.jpg 546,1558,633,1921,2 610,1387,902,1934,1 4,3,1528,1940,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\354384-69.jpg 423,1584,512,1948,2
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\354384-72.jpg 1117,1342,1202,1877,2 717,1553,962,1861,1 120,184,1525,1866,3 128,192,1523,1545,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\354384-74.jpg 19,24,1196,1203,0 632,1638,696,1971,2 681,1392,831,1979,1 15,18,1202,1982,3 778,1042,1444,1837,3 907,1700,1065,1826,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\354384-82.jpg 798,1346,850,1876,2 524,1640,656,1890,1 11,361,1527,1893,3 27,364,1527,1482,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\354384-94.jpg 742,1398,790,1935,2 587,1501,745,1922,1 6,6,1392,1927,3 8,6,1379,701,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\354384-95.jpg 933,1377,998,1958,2 763,1309,908,1964,1 6,243,1490,1967,3 6,246,1490,1227,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\354392-10.jpg 1240,1139,1282,1473,2 899,1163,1099,1463,1 238,116,1484,1465,3 242,120,1480,1137,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\354392-15.jpg 661,1445,739,1882,2 731,1484,894,1882,1 44,168,1523,1887,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\354392-18.jpg 896,1654,937,1973,2 969,1725,1169,1940,1 963,1101,1532,1951,3 963,1101,1532,1706,0 656,1648,869,1964,1 361,4,1521,1969,3 369,6,1516,1532,0 206,1682,374,2006,1 8,14,711,2011,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\354392-20.jpg 517,1421,593,1827,2 599,1492,775,1832,1 12,379,1331,1840,3 20,384,1325,1284,0 1157,1558,1286,1797,1 1362,1403,1536,1783,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\354392-28.jpg 189,483,206,585,2 211,472,287,588,1 116,47,480,589,3 26,465,90,601,1 2,1,294,601,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\354392-32.jpg 215,385,257,579,1 202,457,215,574,2 129,3,469,578,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\354392-33.jpg 263,513,282,608,2 201,412,294,606,1 58,89,390,608,3 115,386,261,609,3 156,534,183,607,1 118,389,252,534,0 318,469,360,593,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\354392-37.jpg 237,454,309,610,1 310,436,335,601,2 1,15,427,612,3 4,16,424,434,0 400,211,480,477,3 450,330,478,475,1 6,330,115,518,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\354392-41.jpg 755,1403,823,1925,2 807,1400,967,1932,1 241,111,1246,1937,3 252,118,1241,1355,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\354392-43.jpg 684,1375,729,1928,2 550,1635,663,1938,1 308,664,1234,1940,3 313,664,1227,1317,0 648,96,1530,2048,3 1266,1646,1529,2048,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\354392-48.jpg 526,1245,641,1827,2 691,1397,844,1850,1 94,295,1396,1855,3 10,5,809,2048,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\354392-51.jpg 1240,937,1287,1457,2 976,1275,1120,1437,1 482,3,2044,1439,3 486,9,2044,846,0 6,5,610,1482,3 14,7,604,1084,0 108,1092,261,1484,1 1493,763,1986,1326,3 1499,767,1982,1201,0 1774,1203,1840,1322,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\354392-55.jpg 223,77,1915,1011,0 1056,1056,1215,1346,1 219,69,1923,1352,3 951,926,1020,1344,2
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\354392-57.jpg 829,854,894,1338,2 1084,1220,1203,1348,1 574,242,1741,1356,3 578,248,1739,1091,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\354392-64.jpg 1425,932,1519,1417,2 984,1307,1084,1424,1 376,438,1780,1430,3 386,444,1774,1234,0 1688,662,2048,1288,3 1805,1083,1962,1283,1 1696,665,2041,1038,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\354392-65.jpg 751,999,806,1458,2 874,1241,1052,1458,1 514,150,2001,1461,3 521,152,1995,1001,0 1589,1190,1716,1365,1 1493,580,2040,1367,3 1504,584,2038,1171,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\354392-68.jpg 1455,935,1496,1400,2 1231,992,1416,1405,1 335,209,1608,1405,3 340,216,1606,999,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\36919-1724.jpg 173,368,196,606,2 213,452,256,610,1 87,47,455,612,3 90,49,455,455,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\36919-1726.jpg 280,362,302,600,2 195,493,236,592,1 45,15,439,592,3 48,17,436,415,0 1,226,105,479,3 4,227,106,410,0 9,438,35,478,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\36919-1728.jpg 167,410,187,583,2 190,483,246,592,1 1,59,476,594,3 4,61,475,439,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\36919-1729.jpg 338,447,351,606,2 264,502,327,608,1 3,19,473,610,3 5,20,471,487,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\36919-1730.jpg 423,421,439,605,2 329,500,391,603,1 3,15,421,604,3 5,17,420,416,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\36919-1731.jpg 260,442,276,612,2 197,474,251,610,1 9,105,470,612,3 11,106,468,403,0 405,346,480,515,1 269,1,480,517,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\36919-1734.jpg 337,305,352,449,2 380,343,450,459,1 2,1,622,461,3 3,2,621,221,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\36919-1736.jpg 334,462,352,633,2 255,451,331,636,1 4,1,454,636,3 8,4,451,432,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\36919-1739.jpg 312,379,329,553,2 185,501,229,560,1 5,6,422,562,3 8,7,422,497,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\36919-1742.jpg 301,453,316,606,2 220,497,274,612,1 31,1,459,613,3 35,3,457,462,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\41114-01.jpg 574,1580,616,1983,2 808,1643,974,1946,1 3,90,1536,1946,3 13,98,1532,1232,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\41904-1743.jpg 286,439,301,599,2 218,538,265,585,1 29,125,384,585,3 30,127,382,487,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\41904-1744.jpg 121,445,141,618,2 188,523,247,615,1 2,5,477,616,3 4,8,476,401,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\41904-1751.jpg 368,411,383,605,2 279,472,345,598,1 1,14,469,599,3 4,16,467,379,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\42480-2254.jpg 288,445,304,583,2 213,487,263,578,1 1,40,468,580,3 4,42,468,414,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\42480-2255.jpg 331,301,343,451,2 274,301,330,450,1 80,1,604,452,3 84,2,602,289,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\42480-2257.jpg 328,267,341,418,2 234,320,284,414,1 87,68,485,416,3 88,70,478,318,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\470759-106.jpg 852,1249,910,1872,2 663,1290,842,1885,1 256,82,1213,1890,3 266,93,1206,1293,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\470759-108.jpg 684,1372,753,1822,2 763,1472,900,1848,1 216,275,1442,1846,3 227,280,1429,1322,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\470759-123.jpg 1148,1203,1225,1761,2 252,287,1265,1747,3 686,1358,867,1742,1 262,292,1262,1392,0 1212,716,1536,1664,3 1449,1479,1536,1665,1 1223,721,1533,1242,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\470759-126.jpg 860,1501,906,1917,2 634,1646,819,1882,1 74,101,1487,1890,3 77,104,1479,1285,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\470759-127.jpg 296,1182,356,1732,2 395,1280,579,1754,1 63,206,1345,1759,3 66,211,1342,1256,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\470759-13.jpg 909,1379,986,1850,2 299,147,1517,1703,3 307,153,1509,1597,0 501,1524,630,1697,1 959,1087,1449,1684,3 965,1100,1443,1561,0 1096,1592,1183,1684,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\470759-131.jpg 250,227,1322,1174,0 636,1166,767,1747,1 243,218,1328,1750,3 504,1237,593,1729,2 849,1097,1349,1647,3 859,1105,1346,1384,0 1033,1363,1112,1642,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\470759-138.jpg 841,1200,922,1751,2 901,1300,1059,1753,1 359,245,1225,1763,3 370,245,1215,1276,0 1130,1118,1457,1537,3 283,1192,843,1955,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\470759-20.jpg 986,1099,1031,1500,2 727,1171,929,1488,1 33,31,1978,1490,3 42,33,1976,1103,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\470759-33.jpg 607,1692,672,2003,2 720,982,1407,1932,3 870,1729,997,1924,1 162,1537,472,2014,1 728,982,1407,1724,0 1149,1768,1225,1913,1 1228,1705,1312,1908,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\470759-39.jpg 1171,1014,1251,1483,2 929,1054,1110,1444,1 8,7,2043,1444,3 457,797,759,1536,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\470759-46.jpg 555,1558,649,1954,2 630,1676,804,1984,1 120,29,1459,1984,3 128,26,1446,1076,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\470759-49.jpg 751,1403,828,1902,2 530,1226,746,1890,1 180,74,1443,1905,3 196,79,1441,1332,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\470759-52.jpg 808,1571,886,1941,2 712,1676,830,1934,1 1,74,1383,1940,3 15,76,1375,1340,0 967,874,1501,1913,3 1007,1584,1207,1918,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\470759-54.jpg 774,1411,854,1837,2 572,1576,730,1811,1 99,266,1346,1813,3 104,274,1343,1529,0 978,1516,1112,1782,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\470759-55.jpg 742,1648,792,2026,2 527,1746,713,2006,1 13,230,1437,2014,3 24,240,1432,1380,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\470759-58.jpg 639,1518,683,1841,2 687,1506,808,1835,1 308,322,1471,1835,3 316,325,1463,1348,0 111,1369,250,1915,1 1002,1496,1119,1800,1 1250,1496,1378,1766,1 13,104,648,1919,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\470759-63.jpg 645,1550,722,1914,2 715,1526,899,1911,1 4,95,1478,1916,3 17,100,1470,1295,0 901,818,1499,1874,3 1146,1282,1336,1868,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\470759-74.jpg 850,1234,930,1777,2 580,1545,743,1726,1 220,287,1475,1740,3 230,290,1465,1403,0 730,1447,846,1661,1 1293,1295,1528,1553,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\470759-75.jpg 733,1213,841,1803,2 293,158,1507,1790,3 307,161,1493,1126,0 501,1426,749,1782,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\470759-86.jpg 1075,891,1141,1479,2 788,1162,974,1473,1 259,181,1716,1477,3 267,187,1712,958,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\470759-87.jpg 871,893,939,1356,2 925,983,1069,1369,1 645,218,1508,1373,3 651,224,1504,1003,0 1,3,837,1365,3 2,1126,104,1360,1 8,9,829,836,0 1359,571,2006,1356,3 1476,1018,1590,1354,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\470759-90.jpg 825,1126,891,1635,2 722,1047,836,1624,1 296,484,1141,1629,3 315,487,1138,1234,0 983,576,1378,1616,3 1096,1013,1225,1611,1 1362,1163,1512,1600,1 1278,718,1536,1598,3
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\470759-93.jpg 549,1245,615,1840,2 641,1190,809,1853,1 278,421,1388,1861,3 283,424,1380,1550,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\5053-2363.jpg 236,473,254,626,2 191,501,235,628,1 16,56,454,630,3 19,57,451,379,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\5053-2421.jpg 50,264,91,560,2 163,382,254,564,1 81,25,427,565,3 84,25,426,477,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\5053-2428.jpg 357,301,371,462,2 304,351,355,463,1 63,1,604,462,3 65,3,603,211,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\5053-2431.jpg 44,2,426,606,3 193,400,280,605,1 166,391,187,593,2 46,3,426,277,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\5053-2432.jpg 37,4,477,621,3 168,465,259,619,1 177,420,201,626,2 311,350,465,638,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\5053-2433.jpg 235,402,251,564,2 246,429,293,570,1 130,78,404,572,3 132,79,403,303,0 423,419,474,536,1 312,112,478,537,3 313,114,478,314,0 1,1,288,589,3 3,3,288,331,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\5053-2434.jpg 80,419,107,610,2 101,453,197,618,1 3,48,477,618,3 4,50,474,318,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\5053-2435.jpg 31,415,61,619,2 58,358,243,619,1 59,4,475,620,3 60,6,475,370,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\5053-2440.jpg 377,332,389,450,2 267,375,329,446,1 69,1,580,448,3 72,2,580,246,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\5053-2447.jpg 118,438,132,613,2 130,466,202,610,1 1,10,390,610,3 4,14,388,392,0 241,438,360,639,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\5053-2450.jpg 228,448,246,595,2 146,463,209,583,1 1,23,476,583,3 4,25,475,372,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\5053-2453.jpg 5,65,441,618,3 231,483,309,615,1 5,68,440,363,0 91,192,197,640,1 210,455,231,616,2
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\5053-2458.jpg 207,330,287,606,1 4,19,433,608,3 8,19,432,310,0 301,405,324,609,2
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\5053-2459.jpg 176,429,257,615,1 10,42,480,615,3 13,43,479,321,0 2,374,113,638,1 277,436,295,617,2
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\5975-1864.jpg 270,476,289,613,2 207,481,272,614,1 2,39,459,616,3 4,40,457,438,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\5975-1871.jpg 253,498,271,605,2 190,461,254,614,1 16,38,377,617,3 20,40,375,373,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\6718-1811.jpg 223,377,244,584,2 177,301,229,587,1 23,2,408,588,3 25,3,405,288,0
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\6718-1813.jpg 1,38,234,624,3 61,38,371,623,3 227,470,273,621,1 275,447,290,618,2 63,41,369,197,0 286,200,480,622,3 289,200,478,461,0 392,497,428,622,1
+D:\Projetos Machine Learning\Python\MobilenetV2-OD\dataset\validation\image\augmentated\6718-1814.jpg 229,465,245,595,2 242,483,289,595,1 3,5,477,597,3 4,7,476,358,0
