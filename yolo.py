@@ -15,7 +15,7 @@ from tensorflow.keras import backend as K
 from tensorflow.keras.models import Model, load_model
 from tensorflow.keras.layers import Input, Lambda
 from tensorflow_model_optimization.sparsity import keras as sparsity
-from PIL import Image
+from PIL import Image, ImageFile
 
 from yolo3.model import get_yolo3_model, get_yolo3_inference_model#, get_yolo3_prenms_model
 from yolo3.postprocess_np import yolo3_postprocess_np
@@ -321,17 +321,26 @@ def detect_video(yolo, video_path, output_path=""):
     cv2.destroyAllWindows()
 
 
-def detect_img(yolo):
-    while True:
-        img = input('Input image filename:')
+def detect_img(yolo,img=None):
+    if (img==None):
+        while True:
+            img = input('Input image filename:')
+            try:
+                image = Image.open(img)
+            except:
+                print('Open Error! Try again!')
+                continue
+            else:
+                r_image = yolo.detect_image(image)
+                r_image.show()
+    else:
         try:
             image = Image.open(img)
         except:
-            print('Open Error! Try again!')
-            continue
+            raise Exception('Image file does not exisit! Try again!')
         else:
             r_image = yolo.detect_image(image)
-            r_image.show()
+            return r_image
 
 
 if __name__ == '__main__':
@@ -403,6 +412,11 @@ if __name__ == '__main__':
         '--output_model_file', type=str,
         help='output inference model file'
     )
+    
+    parser.add_argument(
+        '--input_image', type=str, default="",
+        help='[Optional] image file or a folder with multiple images to detect the objects'
+    )
 
     args = parser.parse_args()
     # param parse
@@ -430,9 +444,30 @@ if __name__ == '__main__':
         Image detection mode, disregard any remaining command line arguments
         """
         print("Image detection mode")
-        if "input" in args:
-            print(" Ignoring remaining command line arguments: " + args.input + "," + args.output)
-        detect_img(yolo)
+        if "input_image" in args:
+            output_folder = 'example'
+            
+            if (not os.path.exists(output_folder)):
+                os.makedirs(output_folder)
+                
+            if (os.path.isfile(args.input_image)):
+                file_ = [os.path.basename(args.input_image)]
+            else:
+                file_ = os.listdir(args.input_image)
+            
+            for f in file_:
+                r_image = detect_img(yolo,os.path.join(os.path.dirname(args.input_image),f))
+                
+                out_file = os.path.join(output_folder,f)
+                try:
+                    r_image.save(out_file,"JPEG",quality=80, optimize=True,progressive=True)
+                except:
+                    ImageFile.MAXBLOCK = r_image.size[0] * r_image.size[1]
+                    r_image.save(out_file, "JPEG", quality=80, optimize=True, progressive=True)            
+        else:    
+            if "input" in args:
+                print(" Ignoring remaining command line arguments: " + args.input + "," + args.output)
+            detect_img(yolo)
     elif "input" in args:
         detect_video(yolo, args.input, args.output)
     else:
