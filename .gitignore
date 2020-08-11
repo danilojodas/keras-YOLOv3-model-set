@@ -108,4 +108,5 @@ ENV/
 .mypy_cache/
 
 dataset
+example
 result*
