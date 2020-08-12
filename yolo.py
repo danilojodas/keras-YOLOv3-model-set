@@ -98,7 +98,7 @@ class YOLO_np(object):
         return yolo_model
 
 
-    def detect_image(self, image):
+    def detect_image(self, image, apply_constraints=False):
         if self.model_image_size != (None, None):
             assert self.model_image_size[0]%32 == 0, 'Multiples of 32 required'
             assert self.model_image_size[1]%32 == 0, 'Multiples of 32 required'
@@ -112,6 +112,38 @@ class YOLO_np(object):
         print('Found {} boxes for {}'.format(len(out_boxes), 'img'))
         end = time.time()
         print("Inference time: {:.8f}s".format(end - start))
+        
+        if (apply_constraints):
+            print('Applying constraints...')
+            idx_stem, = np.where(self.class_names == 'stem')
+            idx_stick, = np.where(self.class_names == 'stick')
+            
+            # Stem constraint
+            if (len(idx_stick) > 0):            
+                stems, = np.where(out_classes == idx_stem)
+                
+                if (len(stems) > 1):
+                    higher_weighted_dist = -9999
+                    higher_weighted_dist_idx = -1
+                    
+                    for i in stems:
+                        # Calculating the weighted difference between the stick and the current stem
+                        bottom_dist = abs(out_boxes[i][-1] - out_boxes[idx_stick][-1])
+                        
+                        dist = min([abs(out_boxes[idx_stick][0] - out_boxes[i][1]),
+                                    abs(out_boxes[idx_stick][1] - out_boxes[i][0])])
+                        
+                        weighted_dist = bottom_dist * (1 / (dist + 0.00001)) + bottom_dist * out_scores[i]
+                        
+                        if (weighted_dist > higher_weighted_dist):
+                            higher_weighted_dist = weighted_dist
+                            
+                            if (higher_weighted_dist_idx >= 0):
+                                out_boxes = np.delete(out_boxes,higher_weighted_dist_idx,axis=0)
+                                out_classes = np.delete(out_classes,higher_weighted_dist_idx,axis=0)
+                                out_scores = np.delete(out_scores,higher_weighted_dist_idx,axis=0)
+                            
+                            higher_weighted_dist_idx = i        
 
         #draw result on input image
         image_array = np.array(image, dtype='uint8')
@@ -187,7 +219,7 @@ class YOLO(object):
         out_classes = out_classes.astype(np.int32)
         return out_boxes, out_classes, out_scores
 
-    def detect_image(self, image):
+    def detect_image(self, image, apply_constraints=False):
         if self.model_image_size != (None, None):
             assert self.model_image_size[0]%32 == 0, 'Multiples of 32 required'
             assert self.model_image_size[1]%32 == 0, 'Multiples of 32 required'
@@ -203,6 +235,38 @@ class YOLO(object):
         end = time.time()
         print('Found {} boxes for {}'.format(len(out_boxes), 'img'))
         print("Inference time: {:.8f}s".format(end - start))
+        
+        if (apply_constraints):
+            print('Applying constraints...')
+            idx_stem, = np.where(self.class_names == 'stem')
+            idx_stick, = np.where(self.class_names == 'stick')
+            
+            # Stem constraint
+            if (len(idx_stick) > 0):            
+                stems, = np.where(out_classes == idx_stem)
+                
+                if (len(stems) > 1):
+                    higher_weighted_dist = -9999
+                    higher_weighted_dist_idx = -1
+                    
+                    for i in stems:
+                        # Calculating the weighted difference between the stick and the current stem
+                        bottom_dist = abs(out_boxes[i][-1] - out_boxes[idx_stick][-1])
+                        
+                        dist = min([abs(out_boxes[idx_stick][0] - out_boxes[i][1]),
+                                    abs(out_boxes[idx_stick][1] - out_boxes[i][0])])
+                        
+                        weighted_dist = bottom_dist * (1 / (dist + 0.00001)) + bottom_dist * out_scores[i]
+                        
+                        if (weighted_dist > higher_weighted_dist):
+                            higher_weighted_dist = weighted_dist
+                            
+                            if (higher_weighted_dist_idx >= 0):
+                                out_boxes = np.delete(out_boxes,higher_weighted_dist_idx,axis=0)
+                                out_classes = np.delete(out_classes,higher_weighted_dist_idx,axis=0)
+                                out_scores = np.delete(out_scores,higher_weighted_dist_idx,axis=0)
+                            
+                            higher_weighted_dist_idx = i
 
         #draw result on input image
         image_array = np.array(image, dtype='uint8')
@@ -321,7 +385,7 @@ def detect_video(yolo, video_path, output_path=""):
     cv2.destroyAllWindows()
 
 
-def detect_img(yolo,img=None):
+def detect_img(yolo,img=None,apply_constraint=False):
     if (img==None):
         while True:
             img = input('Input image filename:')
@@ -331,7 +395,7 @@ def detect_img(yolo,img=None):
                 print('Open Error! Try again!')
                 continue
             else:
-                r_image = yolo.detect_image(image)
+                r_image = yolo.detect_image(image,apply_constraint=apply_constraint)
                 r_image.show()
     else:
         try:
@@ -339,7 +403,7 @@ def detect_img(yolo,img=None):
         except:
             raise Exception('Image file does not exisit! Try again!')
         else:
-            r_image = yolo.detect_image(image)
+            r_image = yolo.detect_image(image,apply_constraint=apply_constraint)
             return r_image
 
 
@@ -417,6 +481,11 @@ if __name__ == '__main__':
         '--input_image', type=str, default="",
         help='[Optional] image file or a folder with multiple images to detect the objects'
     )
+    
+    parser.add_argument(
+        '--apply_constraints', default=False, action="store_true",
+        help='[Optional] Apply constraints to the bounding boxes'
+    )    
 
     args = parser.parse_args()
     # param parse
@@ -456,7 +525,7 @@ if __name__ == '__main__':
                 file_ = os.listdir(args.input_image)
             
             for f in file_:
-                r_image = detect_img(yolo,os.path.join(os.path.dirname(args.input_image),f))
+                r_image = detect_img(yolo,os.path.join(os.path.dirname(args.input_image),f),apply_constraint=args.apply_constraints)
                 
                 out_file = os.path.join(output_folder,f)
                 try:
@@ -467,7 +536,7 @@ if __name__ == '__main__':
         else:    
             if "input" in args:
                 print(" Ignoring remaining command line arguments: " + args.input + "," + args.output)
-            detect_img(yolo)
+            detect_img(yolo,apply_constraint=args.apply_constraints)
     elif "input" in args:
         detect_video(yolo, args.input, args.output)
     else:
