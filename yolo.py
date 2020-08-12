@@ -118,6 +118,9 @@ class YOLO_np(object):
             idx_stem, = np.where(self.class_names == 'stem')
             idx_stick, = np.where(self.class_names == 'stick')
             
+            print('idx_stem: ', idx_stem)
+            print('idx_stick: ', idx_stick)
+            
             # Stem constraint
             if (len(idx_stick) > 0):            
                 stems, = np.where(out_classes == idx_stem)
