@@ -118,11 +118,8 @@ class YOLO_np(object):
             idx_stem = self.class_names.index('stem')
             idx_stick = self.class_names.index('stick')
             
-            print('idx_stem: ', idx_stem)
-            print('idx_stick: ', idx_stick)
-            
             # Stem constraint
-            if (len(idx_stick) > 0):            
+            if (idx_stick in out_classes):            
                 stems, = np.where(out_classes == idx_stem)
                 
                 if (len(stems) > 1):
@@ -151,10 +148,9 @@ class YOLO_np(object):
                             
                             higher_weighted_dist_idx = i
                         else:
-                            if (higher_weighted_dist_idx >= 0):
-                                out_boxes = np.delete(out_boxes,i,axis=0)
-                                out_classes = np.delete(out_classes,i,axis=0)
-                                out_scores = np.delete(out_scores,i,axis=0)
+                            out_boxes = np.delete(out_boxes,i,axis=0)
+                            out_classes = np.delete(out_classes,i,axis=0)
+                            out_scores = np.delete(out_scores,i,axis=0)
                                                         
 
         #draw result on input image
