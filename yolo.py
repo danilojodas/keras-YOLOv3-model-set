@@ -395,7 +395,7 @@ def detect_img(yolo,img=None,apply_constraint=False):
                 print('Open Error! Try again!')
                 continue
             else:
-                r_image = yolo.detect_image(image,apply_constraint=apply_constraint)
+                r_image = yolo.detect_image(image,apply_constraints=apply_constraint)
                 r_image.show()
     else:
         try:
@@ -403,7 +403,7 @@ def detect_img(yolo,img=None,apply_constraint=False):
         except:
             raise Exception('Image file does not exisit! Try again!')
         else:
-            r_image = yolo.detect_image(image,apply_constraint=apply_constraint)
+            r_image = yolo.detect_image(image,apply_constraints=apply_constraint)
             return r_image
 
 
