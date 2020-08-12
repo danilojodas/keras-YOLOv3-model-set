@@ -115,8 +115,8 @@ class YOLO_np(object):
         
         if (apply_constraints):
             print('Applying constraints...')
-            idx_stem, = np.where(self.class_names == 'stem')
-            idx_stick, = np.where(self.class_names == 'stick')
+            idx_stem = self.class_names.index('stem')
+            idx_stick = self.class_names.index('stick')
             
             print('idx_stem: ', idx_stem)
             print('idx_stick: ', idx_stick)
