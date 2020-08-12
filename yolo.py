@@ -143,7 +143,13 @@ class YOLO_np(object):
                                 out_classes = np.delete(out_classes,higher_weighted_dist_idx,axis=0)
                                 out_scores = np.delete(out_scores,higher_weighted_dist_idx,axis=0)
                             
-                            higher_weighted_dist_idx = i        
+                            higher_weighted_dist_idx = i
+                        else:
+                            if (higher_weighted_dist_idx >= 0):
+                                out_boxes = np.delete(out_boxes,i,axis=0)
+                                out_classes = np.delete(out_classes,i,axis=0)
+                                out_scores = np.delete(out_scores,i,axis=0)
+                                                        
 
         #draw result on input image
         image_array = np.array(image, dtype='uint8')
