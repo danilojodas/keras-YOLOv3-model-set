@@ -117,11 +117,16 @@ class YOLO_np(object):
             print('Applying constraints...')
             idx_stem = self.class_names.index('stem')
             idx_stick = self.class_names.index('stick')
+            idx_tree = self.class_names.index('tree')
+            idx_crown = self.class_names.index('crown')
             
             # Stem constraint
             if (idx_stick in out_classes):            
                 stems, = np.where(out_classes == idx_stem)
+                trees, = np.where(out_classes == idx_tree)
+                crowns, = np.where(out_classes == idx_crown)
                 
+                # Checking the correct stem
                 if (len(stems) > 1):
                     higher_weighted_dist = -9999
                     higher_weighted_dist_idx = -1
@@ -151,7 +156,19 @@ class YOLO_np(object):
                             out_boxes = np.delete(out_boxes,i,axis=0)
                             out_classes = np.delete(out_classes,i,axis=0)
                             out_scores = np.delete(out_scores,i,axis=0)
-                                                        
+                    
+                    # Checking the correct tree that surronds the stem
+                    if (len(trees) > 1 and higher_weighted_dist_idx >= 0):
+                        out_boxes, out_classes, out_scores = self.remove_duplicate_boxes(trees,
+                                                                                         out_boxes[higher_weighted_dist_idx],
+                                                                                         out_classes,
+                                                                                         out_scores)
+                    tree_bbox_idx, = np.where(out_classes == idx_tree)
+                    if (len(crowns) > 1 and len(tree_bbox_idx) > 0):
+                        out_boxes, out_classes, out_scores = self.remove_duplicate_boxes(crowns,
+                                                                                         out_boxes[tree_bbox_idx],
+                                                                                         out_classes,
+                                                                                         out_scores)                        
 
         #draw result on input image
         image_array = np.array(image, dtype='uint8')
@@ -171,8 +188,45 @@ class YOLO_np(object):
 
     def dump_model_file(self, output_model_file):
         self.yolo_model.save(output_model_file)
-
-
+        
+    def overlap_rate(self, bbox1, bbox2):
+        width = bbox1[1] - bbox1[0]
+        height = bbox1[-1] - bbox1[-2]
+        
+        condition = list()
+        
+        for x in range(bbox2[0], bbox2[0] + (bbox2[1] - bbox2[0])):
+            for y in range(bbox2[-2], bbox2[-2] + (bbox2[-1] - bbox2[-2])):
+                condition.append(bbox1[0] <= x < (bbox1[0]+ width) and bbox1[-2] <= y < (bbox1[-2] + height))
+        
+        n = (bbox2[1] - bbox2[0]) * (bbox2[-1] - bbox2[-2])
+        condition = np.array(condition)
+        
+        return sum(condition) / n
+    
+    def remove_duplicate_boxes(self, bbox1, bbox2, out_boxes, out_classes, out_scores):
+        larger_overlap = -9999
+        larger_overlap_index = -1
+        
+        for i in bbox1:
+            # Calculating the overlapping between the ith element of the bbox1 and the bbox2
+            overlap = self.overlap_rate(out_boxes[i], bbox2)
+            
+            if (overlap > larger_overlap):
+                larger_overlap = overlap
+                
+                if (larger_overlap_index >= 0):
+                    out_boxes = np.delete(out_boxes,larger_overlap_index,axis=0)
+                    out_classes = np.delete(out_classes,larger_overlap_index,axis=0)
+                    out_scores = np.delete(out_scores,larger_overlap_index,axis=0)
+                
+                larger_overlap_index = i
+            else:
+                out_boxes = np.delete(out_boxes,i,axis=0)
+                out_classes = np.delete(out_classes,i,axis=0)
+                out_scores = np.delete(out_scores,i,axis=0)
+        
+        return out_boxes, out_classes, out_scores
 
 class YOLO(object):
     _defaults = default_config
