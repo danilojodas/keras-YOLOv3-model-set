@@ -123,13 +123,13 @@ class YOLO_np(object):
             # Stem constraint
             if (idx_stick in out_classes):            
                 stems, = np.where(out_classes == idx_stem)
-                trees, = np.where(out_classes == idx_tree)
-                crowns, = np.where(out_classes == idx_crown)
                 
                 # Checking the correct stem
                 if (len(stems) > 1):
                     higher_weighted_dist = -9999
                     higher_weighted_dist_idx = -1
+                    
+                    stems_to_remove = list()
                     
                     for i in stems:
                         # Calculating the weighted difference between the stick and the current stem
@@ -139,35 +139,40 @@ class YOLO_np(object):
                                     abs(out_boxes[idx_stick][1] - out_boxes[i][0])])
                         
                         weighted_dist = bottom_dist * (1 / (dist + 0.00001)) + bottom_dist * out_scores[i]
-                        print('weighted dist: ', str(weighted_dist))
-                        print('dist: ', str(dist))
-                        print('bottom dist: ', str(bottom_dist))
                         
                         if (weighted_dist > higher_weighted_dist):
                             higher_weighted_dist = weighted_dist
                             
                             if (higher_weighted_dist_idx >= 0):
-                                out_boxes = np.delete(out_boxes,higher_weighted_dist_idx,axis=0)
-                                out_classes = np.delete(out_classes,higher_weighted_dist_idx,axis=0)
-                                out_scores = np.delete(out_scores,higher_weighted_dist_idx,axis=0)
+                                #out_boxes = np.delete(out_boxes,higher_weighted_dist_idx,axis=0)
+                                #out_classes = np.delete(out_classes,higher_weighted_dist_idx,axis=0)
+                                #out_scores = np.delete(out_scores,higher_weighted_dist_idx,axis=0)
+                                stems_to_remove.append(higher_weighted_dist_idx)
                             
                             higher_weighted_dist_idx = i
                         else:
-                            out_boxes = np.delete(out_boxes,i,axis=0)
-                            out_classes = np.delete(out_classes,i,axis=0)
-                            out_scores = np.delete(out_scores,i,axis=0)
+                            #out_boxes = np.delete(out_boxes,i,axis=0)
+                            #out_classes = np.delete(out_classes,i,axis=0)
+                            #out_scores = np.delete(out_scores,i,axis=0)
+                            stems_to_remove.append(i)
                     
+                    out_boxes = np.delete(out_boxes,stems_to_remove,axis=0)
+                    out_classes = np.delete(out_classes,stems_to_remove,axis=0)
+                    out_scores = np.delete(out_scores,stems_to_remove,axis=0)
+                    
+                    trees, = np.where(out_classes == idx_tree)
                     # Checking the correct tree that surronds the stem
                     if (len(trees) > 1 and higher_weighted_dist_idx >= 0):
                         out_boxes, out_classes, out_scores = self.remove_duplicate_boxes(trees,
-                                                                                         out_boxes[higher_weighted_dist_idx],
+                                                                                         out_boxes[higher_weighted_dist_idx,:],
                                                                                          out_boxes,
                                                                                          out_classes,
                                                                                          out_scores)
+                    crowns, = np.where(out_classes == idx_crown)
                     tree_bbox_idx, = np.where(out_classes == idx_tree)
                     if (len(crowns) > 1 and len(tree_bbox_idx) > 0):
                         out_boxes, out_classes, out_scores = self.remove_duplicate_boxes(crowns,
-                                                                                         out_boxes[tree_bbox_idx],
+                                                                                         out_boxes[tree_bbox_idx,:],
                                                                                          out_boxes,
                                                                                          out_classes,
                                                                                          out_scores)                        
@@ -206,11 +211,13 @@ class YOLO_np(object):
         
         return sum(condition) / n
     
-    def remove_duplicate_boxes(self, bbox1, bbox2, out_boxes, out_classes, out_scores):
+    def remove_duplicate_boxes(self, bbox1_ind, bbox2, out_boxes, out_classes, out_scores):
         larger_overlap = -9999
         larger_overlap_index = -1
         
-        for i in bbox1:
+        indices_to_remove = list()
+        
+        for i in bbox1_ind:
             # Calculating the overlapping between the ith element of the bbox1 and the bbox2
             overlap = self.overlap_rate(out_boxes[i], bbox2)
             
@@ -218,15 +225,21 @@ class YOLO_np(object):
                 larger_overlap = overlap
                 
                 if (larger_overlap_index >= 0):
-                    out_boxes = np.delete(out_boxes,larger_overlap_index,axis=0)
-                    out_classes = np.delete(out_classes,larger_overlap_index,axis=0)
-                    out_scores = np.delete(out_scores,larger_overlap_index,axis=0)
+                    #out_boxes = np.delete(out_boxes,larger_overlap_index,axis=0)
+                    #out_classes = np.delete(out_classes,larger_overlap_index,axis=0)
+                    #out_scores = np.delete(out_scores,larger_overlap_index,axis=0)
+                    indices_to_remove.append(larger_overlap_index)
                 
                 larger_overlap_index = i
             else:
-                out_boxes = np.delete(out_boxes,i,axis=0)
-                out_classes = np.delete(out_classes,i,axis=0)
-                out_scores = np.delete(out_scores,i,axis=0)
+                #out_boxes = np.delete(out_boxes,i,axis=0)
+                #out_classes = np.delete(out_classes,i,axis=0)
+                #out_scores = np.delete(out_scores,i,axis=0)
+                indices_to_remove.append(i)
+        
+        out_boxes = np.delete(out_boxes,indices_to_remove,axis=0)
+        out_classes = np.delete(out_classes,indices_to_remove,axis=0)
+        out_scores = np.delete(out_scores,indices_to_remove,axis=0)        
         
         return out_boxes, out_classes, out_scores
 
