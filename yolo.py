@@ -161,12 +161,14 @@ class YOLO_np(object):
                     if (len(trees) > 1 and higher_weighted_dist_idx >= 0):
                         out_boxes, out_classes, out_scores = self.remove_duplicate_boxes(trees,
                                                                                          out_boxes[higher_weighted_dist_idx],
+                                                                                         out_boxes,
                                                                                          out_classes,
                                                                                          out_scores)
                     tree_bbox_idx, = np.where(out_classes == idx_tree)
                     if (len(crowns) > 1 and len(tree_bbox_idx) > 0):
                         out_boxes, out_classes, out_scores = self.remove_duplicate_boxes(crowns,
                                                                                          out_boxes[tree_bbox_idx],
+                                                                                         out_boxes,
                                                                                          out_classes,
                                                                                          out_scores)                        
 
