@@ -229,7 +229,7 @@ class YOLO_np(object):
         return iou    
     
     def remove_duplicate_boxes(self, bbox1_ind, bbox2, out_boxes, out_classes, out_scores, method='overlap'):
-        if (method!='overlap' or method!='iou'):
+        if (method!='overlap' and method!='iou'):
             raise Exception('Remove duplicate boxes: method type must be \'overlap\' or \'iou\'!')
         
         larger_overlap = -9999
