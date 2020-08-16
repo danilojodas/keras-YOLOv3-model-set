@@ -155,6 +155,7 @@ class YOLO_np(object):
                     out_scores = np.delete(out_scores,stems_to_remove,axis=0)
                     
                     trees, = np.where(out_classes == idx_tree)
+                    higher_weighted_dist_idx, = np.where(out_classes == idx_stem)
                     # Checking the correct tree that surronds the stem
                     if (len(trees) > 1 and higher_weighted_dist_idx >= 0):
                         out_boxes, out_classes, out_scores = self.remove_duplicate_boxes(trees,
