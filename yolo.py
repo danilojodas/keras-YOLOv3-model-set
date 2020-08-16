@@ -192,13 +192,13 @@ class YOLO_np(object):
         self.yolo_model.save(output_model_file)
         
     def overlap_rate(self, bbox1, bbox2):
-        width = bbox1[1] - bbox1[0]
-        height = bbox1[-1] - bbox1[-2]
+        width = bbox1[2] - bbox1[0]
+        height = bbox1[-1] - bbox1[1]
         
         condition = list()
         
-        for x in range(bbox2[0], bbox2[0] + (bbox2[1] - bbox2[0])):
-            for y in range(bbox2[-2], bbox2[-2] + (bbox2[-1] - bbox2[-2])):
+        for x in range(bbox2[0], bbox2[0] + (bbox2[2] - bbox2[0])):
+            for y in range(bbox2[-2], bbox2[-2] + (bbox2[-1] - bbox2[1])):
                 condition.append(bbox1[0] <= x < (bbox1[0]+ width) and bbox1[-2] <= y < (bbox1[-2] + height))
         
         n = (bbox2[1] - bbox2[0]) * (bbox2[-1] - bbox2[-2])
@@ -209,8 +209,8 @@ class YOLO_np(object):
     def bb_intersection_over_union(self, boxA, boxB):
         # determine the (x, y)-coordinates of the intersection rectangle
         xA = max(boxA[0], boxB[0])
-        yA = max(boxA[2], boxB[2])
-        xB = min(boxA[1], boxB[1])
+        yA = max(boxA[1], boxB[1])
+        xB = min(boxA[2], boxB[2])
         yB = min(boxA[3], boxB[3])
         
         # compute the area of intersection rectangle
