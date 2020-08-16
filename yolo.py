@@ -138,22 +138,16 @@ class YOLO_np(object):
                         dist = min([abs(out_boxes[idx_stick][0] - out_boxes[i][1]),
                                     abs(out_boxes[idx_stick][1] - out_boxes[i][0])])
                         
-                        weighted_dist = (1 / (bottom_dist + 0.00001)) * (1 / (dist + 0.00001)) + (1 / (bottom_dist + 0.00001)) * out_scores[i]
+                        weighted_dist = (1 / (bottom_dist + 0.00001)) * (1 / (dist + 0.00001)) * out_scores[i]
                         
                         if (weighted_dist > higher_weighted_dist):
                             higher_weighted_dist = weighted_dist
                             
                             if (higher_weighted_dist_idx >= 0):
-                                #out_boxes = np.delete(out_boxes,higher_weighted_dist_idx,axis=0)
-                                #out_classes = np.delete(out_classes,higher_weighted_dist_idx,axis=0)
-                                #out_scores = np.delete(out_scores,higher_weighted_dist_idx,axis=0)
                                 stems_to_remove.append(higher_weighted_dist_idx)
                             
                             higher_weighted_dist_idx = i
                         else:
-                            #out_boxes = np.delete(out_boxes,i,axis=0)
-                            #out_classes = np.delete(out_classes,i,axis=0)
-                            #out_scores = np.delete(out_scores,i,axis=0)
                             stems_to_remove.append(i)
                     
                     out_boxes = np.delete(out_boxes,stems_to_remove,axis=0)
@@ -175,9 +169,10 @@ class YOLO_np(object):
                                                                                          out_boxes[tree_bbox_idx,:],
                                                                                          out_boxes,
                                                                                          out_classes,
-                                                                                         out_scores)                        
+                                                                                         out_scores,
+                                                                                         method='iou')                        
 
-        #draw result on input image
+        #draw bounding boxes on input image
         image_array = np.array(image, dtype='uint8')
         image_array = draw_boxes(image_array, out_boxes, out_classes, out_scores, self.class_names, self.colors)
         return Image.fromarray(image_array)
@@ -211,31 +206,65 @@ class YOLO_np(object):
         
         return sum(condition) / n
     
-    def remove_duplicate_boxes(self, bbox1_ind, bbox2, out_boxes, out_classes, out_scores):
+    def bb_intersection_over_union(self, boxA, boxB):
+        # determine the (x, y)-coordinates of the intersection rectangle
+        xA = max(boxA[0], boxB[0])
+        yA = max(boxA[2], boxB[2])
+        xB = min(boxA[1], boxB[1])
+        yB = min(boxA[3], boxB[3])
+        
+        # compute the area of intersection rectangle
+        interArea = max(0, xB - xA + 1) * max(0, yB - yA + 1)
+        
+        # compute the area of both the prediction and ground-truth rectangles
+        boxAArea = (boxA[2] - boxA[0] + 1) * (boxA[3] - boxA[1] + 1)
+        boxBArea = (boxB[2] - boxB[0] + 1) * (boxB[3] - boxB[1] + 1)
+        
+        # compute the intersection over union by taking the intersection
+        # area and dividing it by the sum of prediction + ground-truth
+        # areas - the interesection area
+        iou = interArea / float(boxAArea + boxBArea - interArea)
+        
+        # return the intersection over union value
+        return iou    
+    
+    def remove_duplicate_boxes(self, bbox1_ind, bbox2, out_boxes, out_classes, out_scores, method='overlap'):
+        if (method!='overlap' or method!='iou'):
+            raise Exception('Remove duplicate boxes: method type must be \'overlap\' or \'iou\'!')
+        
         larger_overlap = -9999
         larger_overlap_index = -1
         
         indices_to_remove = list()
         
-        for i in bbox1_ind:
-            # Calculating the overlapping between the ith element of the bbox1 and the bbox2
-            overlap = self.overlap_rate(out_boxes[i], bbox2)
-            
-            if (overlap > larger_overlap):
-                larger_overlap = overlap
+        if (method=='overlap'):
+            for i in bbox1_ind:
+                # Calculating the overlapping between the ith element of the bbox1 and the bbox2
+                overlap = self.overlap_rate(out_boxes[i], bbox2)
                 
-                if (larger_overlap_index >= 0):
-                    #out_boxes = np.delete(out_boxes,larger_overlap_index,axis=0)
-                    #out_classes = np.delete(out_classes,larger_overlap_index,axis=0)
-                    #out_scores = np.delete(out_scores,larger_overlap_index,axis=0)
-                    indices_to_remove.append(larger_overlap_index)
+                if (overlap > larger_overlap):
+                    larger_overlap = overlap
+                    
+                    if (larger_overlap_index >= 0):
+                        indices_to_remove.append(larger_overlap_index)
+                    
+                    larger_overlap_index = i
+                else:
+                    indices_to_remove.append(i)
+        else:
+            for i in bbox1_ind:
+                # Calculating the overlapping between the ith element of the bbox1 and the bbox2
+                overlap = self.bb_intersection_over_union(out_boxes[i], bbox2)
                 
-                larger_overlap_index = i
-            else:
-                #out_boxes = np.delete(out_boxes,i,axis=0)
-                #out_classes = np.delete(out_classes,i,axis=0)
-                #out_scores = np.delete(out_scores,i,axis=0)
-                indices_to_remove.append(i)
+                if (overlap > larger_overlap):
+                    larger_overlap = overlap
+                    
+                    if (larger_overlap_index >= 0):
+                        indices_to_remove.append(larger_overlap_index)
+                    
+                    larger_overlap_index = i
+                else:
+                    indices_to_remove.append(i)            
         
         out_boxes = np.delete(out_boxes,indices_to_remove,axis=0)
         out_classes = np.delete(out_classes,indices_to_remove,axis=0)
