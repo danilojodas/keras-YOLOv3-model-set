@@ -138,7 +138,7 @@ class YOLO_np(object):
                         dist = min([abs(out_boxes[idx_stick][0] - out_boxes[i][1]),
                                     abs(out_boxes[idx_stick][1] - out_boxes[i][0])])
                         
-                        weighted_dist = bottom_dist * (1 / (dist + 0.00001)) + bottom_dist * out_scores[i]
+                        weighted_dist = (1 / (bottom_dist + 0.00001)) * (1 / (dist + 0.00001)) + (1 / (bottom_dist + 0.00001)) * out_scores[i]
                         
                         if (weighted_dist > higher_weighted_dist):
                             higher_weighted_dist = weighted_dist
