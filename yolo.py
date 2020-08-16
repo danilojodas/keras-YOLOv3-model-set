@@ -254,7 +254,7 @@ class YOLO_np(object):
         else:
             for i in bbox1_ind:
                 # Calculating the overlapping between the ith element of the bbox1 and the bbox2
-                overlap = self.bb_intersection_over_union(out_boxes[i], bbox2)
+                overlap = self.bb_intersection_over_union(out_boxes[i], bbox2[0])
                 
                 if (overlap > larger_overlap):
                     larger_overlap = overlap
