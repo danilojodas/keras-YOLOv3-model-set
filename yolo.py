@@ -198,10 +198,10 @@ class YOLO_np(object):
         condition = list()
         
         for x in range(bbox2[0], bbox2[0] + (bbox2[2] - bbox2[0])):
-            for y in range(bbox2[-2], bbox2[-2] + (bbox2[-1] - bbox2[1])):
-                condition.append(bbox1[0] <= x < (bbox1[0]+ width) and bbox1[-2] <= y < (bbox1[-2] + height))
+            for y in range(bbox2[1], bbox2[1] + (bbox2[-1] - bbox2[1])):
+                condition.append(bbox1[0] <= x < (bbox1[0]+ width) and bbox1[1] <= y < (bbox1[1] + height))
         
-        n = (bbox2[1] - bbox2[0]) * (bbox2[-1] - bbox2[-2])
+        n = (bbox2[2] - bbox2[0]) * (bbox2[-1] - bbox2[1])
         condition = np.array(condition)
         
         return sum(condition) / n
