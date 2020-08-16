@@ -241,7 +241,7 @@ class YOLO_np(object):
         if (method=='overlap'):
             for i in bbox1_ind:
                 # Calculating the overlapping between the ith element of the bbox1 and the bbox2
-                overlap = self.overlap_rate(out_boxes[i], bbox2)
+                overlap = self.overlap_rate(out_boxes[i], bbox2[0])
                 
                 if (overlap > larger_overlap):
                     larger_overlap = overlap
