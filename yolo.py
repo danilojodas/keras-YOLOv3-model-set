@@ -122,22 +122,31 @@ class YOLO_np(object):
             
             # Stem constraint
             if (idx_stick in out_classes):            
+                stick, = np.where(out_classes == idx_stick)
                 stems, = np.where(out_classes == idx_stem)
+
+                # Getting the stick with the maximum score
+                idx_ = stick[np.argmax(out_scores[stick])]                
                 
                 # Checking the correct stem
-                if (len(stems) > 1):
+                if (len(stems) > 0):
                     higher_weighted_dist = -9999
                     higher_weighted_dist_idx = -1
                     
                     stems_to_remove = list()
-                    
+                    print('index stick: ', str(idx_))
+                    print('indices stem: ', stems)
                     for i in stems:
                         # Calculating the weighted difference between the stick and the current stem
-                        bottom_dist = abs(out_boxes[i][-1] - out_boxes[idx_stick][-1])
+                        bottom_dist = abs(out_boxes[i][-1] - out_boxes[idx_][-1])
                         
-                        dist = min([abs(out_boxes[idx_stick][0] - out_boxes[i][1]),
-                                    abs(out_boxes[idx_stick][1] - out_boxes[i][0])])
-                        
+                        dist = min([abs(out_boxes[idx_][0] - out_boxes[i][2]),
+                                    abs(out_boxes[idx_][2] - out_boxes[i][0])])
+                        print('bottom_dist: ', str(bottom_dist))
+                        print('dist: ', str(dist))
+                        print('out_scores: ', str(out_scores[i]))
+                        print('box stick: ', out_boxes[idx_])
+                        print('box stem ', out_boxes[i])
                         weighted_dist = (1 / (bottom_dist + 0.00001)) * (1 / (dist + 0.00001)) * out_scores[i]
                         
                         if (weighted_dist > higher_weighted_dist):
@@ -156,6 +165,7 @@ class YOLO_np(object):
                     
                     trees, = np.where(out_classes == idx_tree)
                     higher_weighted_dist_idx, = np.where(out_classes == idx_stem)
+                    
                     # Checking the correct tree that surronds the stem
                     if (len(trees) > 1 and higher_weighted_dist_idx >= 0):
                         out_boxes, out_classes, out_scores = self.remove_duplicate_boxes(trees,
