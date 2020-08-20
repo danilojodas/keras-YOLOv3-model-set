@@ -28,6 +28,9 @@ optimize_tf_gpu(tf, K)
 
 
 def main(args):
+    config = tf.ConfigProto()
+    config.gpu_options.allow_growth = True
+    tf.keras.backend.set_session(tf.Session(config=config))
     annotation_file = args.annotation_file
     log_dir = os.path.join('logs', '000')
     classes_path = args.classes_path
