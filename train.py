@@ -28,9 +28,13 @@ optimize_tf_gpu(tf, K)
 
 
 def main(args):
-    config = tf.compat.v1.ConfigProto()
-    config.gpu_options.allow_growth = True
-    tf.keras.backend.set_session(tf.Session(config=config))
+    import tensorflow as tfgpus = tf.config.experimental.list_physical_devices('GPU')
+    if gpus:
+        try:
+            tf.config.experimental.set_virtual_device_configuration(gpus[0], [tf.config.experimental.VirtualDeviceConfiguration(memory_limit=5000)])
+        except RuntimeError as e:
+            print(e)
+
     annotation_file = args.annotation_file
     log_dir = os.path.join('logs', '000')
     classes_path = args.classes_path
