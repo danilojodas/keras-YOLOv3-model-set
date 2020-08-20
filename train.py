@@ -28,7 +28,7 @@ optimize_tf_gpu(tf, K)
 
 
 def main(args):
-    import tensorflow as tfgpus = tf.config.experimental.list_physical_devices('GPU')
+    gpus = tf.config.experimental.list_physical_devices('GPU')
     if gpus:
         try:
             tf.config.experimental.set_virtual_device_configuration(gpus[0], [tf.config.experimental.VirtualDeviceConfiguration(memory_limit=5000)])
