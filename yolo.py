@@ -599,14 +599,14 @@ if __name__ == '__main__':
                 r_image, boxes = detect_img(yolo,os.path.join(os.path.dirname(args.input_image),f),apply_constraint=args.apply_constraints)
                 
                 # Calculate dendrometric features                
-                if (dendrometric_valid != None):                    
+                if (not dendrometric_valid is None):                    
                     if (args.apply_constraints):
                         idx_ , = np.where(dendrometric_valid[:,0] == f)
                         
                         if (len(idx_) > 0): # If the validation image has dendrometric features
                             tree_height = dendrometrics.calculate_dendrometrics(boxes[-1], boxes[0], boxes[1])
                             dendrometric_list.append([f, tree_height, 
-                                                      dendrometric_valid[idx_,1].astype(float)])
+                                                      dendrometric_valid[idx_[0],1].astype(float)])
                 
                 out_file = os.path.join(output_folder,f)
                 try:
