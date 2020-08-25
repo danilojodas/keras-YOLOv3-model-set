@@ -17,6 +17,7 @@ from tensorflow.keras.layers import Input, Lambda
 from tensorflow_model_optimization.sparsity import keras as sparsity
 from PIL import Image, ImageFile
 
+from utils import constraints
 from yolo3.model import get_yolo3_model, get_yolo3_inference_model#, get_yolo3_prenms_model
 from yolo3.postprocess_np import yolo3_postprocess_np
 from yolo2.model import get_yolo2_model, get_yolo2_inference_model
@@ -113,75 +114,25 @@ class YOLO_np(object):
         end = time.time()
         print("Inference time: {:.8f}s".format(end - start))
         
+        start_c = 0
+        end_c = 0
         if (apply_constraints):
+            start_c = time.time()            
             print('Applying constraints...')
-            idx_stem = self.class_names.index('stem')
-            idx_stick = self.class_names.index('stick')
-            idx_tree = self.class_names.index('tree')
-            idx_crown = self.class_names.index('crown')
+            out_boxes, out_classes, out_scores = constraints.apply_constraints(self.class_names, 
+                                                                               out_boxes, 
+                                                                               out_classes, 
+                                                                               out_scores)            
+            end_c = time.time()
+            print("Constraints time: {:.8f}s".format(end_c - start_c))
             
-            # Stem constraint
-            if (idx_stick in out_classes):            
-                stick, = np.where(out_classes == idx_stick)
-                stems, = np.where(out_classes == idx_stem)
-
-                # Getting the stick with the maximum score
-                idx_ = stick[np.argmax(out_scores[stick])]                
-                
-                # Checking the correct stem
-                if (len(stems) > 0):
-                    higher_weighted_dist = -9999
-                    higher_weighted_dist_idx = -1
-                    
-                    stems_to_remove = list()
-                    print('index stick: ', str(idx_))
-                    print('indices stem: ', stems)
-                    for i in stems:
-                        # Calculating the weighted difference between the stick and the current stem
-                        bottom_dist = abs(out_boxes[i][-1] - out_boxes[idx_][-1])
-                        
-                        dist = min([abs(out_boxes[idx_][0] - out_boxes[i][2]),
-                                    abs(out_boxes[idx_][2] - out_boxes[i][0])])
-                        print('bottom_dist: ', str(bottom_dist))
-                        print('dist: ', str(dist))
-                        print('out_scores: ', str(out_scores[i]))
-                        print('box stick: ', out_boxes[idx_])
-                        print('box stem ', out_boxes[i])
-                        weighted_dist = (1 / (bottom_dist + 0.00001)) * (1 / (dist + 0.00001)) * out_scores[i]
-                        
-                        if (weighted_dist > higher_weighted_dist):
-                            higher_weighted_dist = weighted_dist
-                            
-                            if (higher_weighted_dist_idx >= 0):
-                                stems_to_remove.append(higher_weighted_dist_idx)
-                            
-                            higher_weighted_dist_idx = i
-                        else:
-                            stems_to_remove.append(i)
-                    
-                    out_boxes = np.delete(out_boxes,stems_to_remove,axis=0)
-                    out_classes = np.delete(out_classes,stems_to_remove,axis=0)
-                    out_scores = np.delete(out_scores,stems_to_remove,axis=0)
-                    
-                    trees, = np.where(out_classes == idx_tree)
-                    higher_weighted_dist_idx, = np.where(out_classes == idx_stem)
-                    
-                    # Checking the correct tree that surronds the stem
-                    if (len(trees) > 1 and higher_weighted_dist_idx >= 0):
-                        out_boxes, out_classes, out_scores = self.remove_duplicate_boxes(trees,
-                                                                                         out_boxes[higher_weighted_dist_idx,:],
-                                                                                         out_boxes,
-                                                                                         out_classes,
-                                                                                         out_scores)
-                    crowns, = np.where(out_classes == idx_crown)
-                    tree_bbox_idx, = np.where(out_classes == idx_tree)
-                    if (len(crowns) > 1 and len(tree_bbox_idx) > 0):
-                        out_boxes, out_classes, out_scores = self.remove_duplicate_boxes(crowns,
-                                                                                         out_boxes[tree_bbox_idx,:],
-                                                                                         out_boxes,
-                                                                                         out_classes,
-                                                                                         out_scores,
-                                                                                         method='iou')                        
+        if (not os.path.exists('results')):
+            os.mkdir('results')
+            
+        time_file = open('results/time.txt', 'a')                        
+        time_file.write('{}\n'.format([end - start, end_c - start_c]))
+        time_file.close()
+            
 
         #draw bounding boxes on input image
         image_array = np.array(image, dtype='uint8')
