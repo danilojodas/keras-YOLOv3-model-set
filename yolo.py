@@ -17,7 +17,7 @@ from tensorflow.keras.layers import Input, Lambda
 from tensorflow_model_optimization.sparsity import keras as sparsity
 from PIL import Image, ImageFile
 
-from utils import constraints
+from utils import constraints, dendrometrics
 from yolo3.model import get_yolo3_model, get_yolo3_inference_model#, get_yolo3_prenms_model
 from yolo3.postprocess_np import yolo3_postprocess_np
 from yolo2.model import get_yolo2_model, get_yolo2_inference_model
@@ -137,7 +137,7 @@ class YOLO_np(object):
         #draw bounding boxes on input image
         image_array = np.array(image, dtype='uint8')
         image_array = draw_boxes(image_array, out_boxes, out_classes, out_scores, self.class_names, self.colors)
-        return Image.fromarray(image_array)
+        return Image.fromarray(image_array), [out_boxes, out_classes, self.class_names]
 
 
     def predict(self, image_data, image_shape):
@@ -427,7 +427,7 @@ def detect_video(yolo, video_path, output_path=""):
     while True:
         return_value, frame = vid.read()
         image = Image.fromarray(frame)
-        image = yolo.detect_image(image)
+        image, _ = yolo.detect_image(image)
         result = np.asarray(image)
         curr_time = timer()
         exec_time = curr_time - prev_time
@@ -463,7 +463,7 @@ def detect_img(yolo,img=None,apply_constraint=False):
                 print('Open Error! Try again!')
                 continue
             else:
-                r_image = yolo.detect_image(image,apply_constraints=apply_constraint)
+                r_image, _ = yolo.detect_image(image,apply_constraints=apply_constraint)
                 r_image.show()
     else:
         try:
@@ -471,8 +471,8 @@ def detect_img(yolo,img=None,apply_constraint=False):
         except:
             raise Exception('Image file does not exisit! Try again!')
         else:
-            r_image = yolo.detect_image(image,apply_constraints=apply_constraint)
-            return r_image
+            r_image, boxes = yolo.detect_image(image,apply_constraints=apply_constraint)
+            return r_image, boxes
 
 
 if __name__ == '__main__':
@@ -584,6 +584,9 @@ if __name__ == '__main__':
         if "input_image" in args:
             output_folder = 'example'
             
+            dendrometric_valid = dendrometrics.load_dendrometric('utils/dendrometrics_valid.txt')
+            dendrometric_list = list()
+            
             if (not os.path.exists(output_folder)):
                 os.makedirs(output_folder)
                 
@@ -593,14 +596,29 @@ if __name__ == '__main__':
                 file_ = os.listdir(args.input_image)
             
             for f in file_:
-                r_image = detect_img(yolo,os.path.join(os.path.dirname(args.input_image),f),apply_constraint=args.apply_constraints)
+                r_image, boxes = detect_img(yolo,os.path.join(os.path.dirname(args.input_image),f),apply_constraint=args.apply_constraints)
+                
+                # Calculate dendrometric features                
+                if (dendrometric_valid != None):                    
+                    if (args.apply_constraints):
+                        idx_ , = np.where(dendrometric_valid[:,0] == f)
+                        
+                        if (len(idx_) > 0): # If the validation image has dendrometric features
+                            tree_height = dendrometrics.calculate_dendrometrics(boxes[-1], boxes[0], boxes[1])
+                            dendrometric_list.append([f, tree_height, 
+                                                      dendrometric_valid[idx_,1].astype(float)])
                 
                 out_file = os.path.join(output_folder,f)
                 try:
                     r_image.save(out_file,"JPEG",quality=80, optimize=True,progressive=True)
                 except:
                     ImageFile.MAXBLOCK = r_image.size[0] * r_image.size[1]
-                    r_image.save(out_file, "JPEG", quality=80, optimize=True, progressive=True)            
+                    r_image.save(out_file, "JPEG", quality=80, optimize=True, progressive=True)
+            
+            if (len(dendrometric_list) > 0):
+                dendrometric_list = np.vstack(dendrometric_list)
+                np.savetxt(os.path.join(output_folder, 'dendrometric_features.txt'),dendrometric_list,
+                           fmt='%s',delimiter=',', header='image_file,measured_height,true_height')
         else:    
             if "input" in args:
                 print(" Ignoring remaining command line arguments: " + args.input + "," + args.output)
