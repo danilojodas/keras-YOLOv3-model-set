@@ -78,7 +78,7 @@ def apply_constraints(class_names, out_boxes, out_classes, out_scores):
                                                                             method='iou')
     return out_boxes, out_classes, out_scores
         
-def overlap_rate(self, bbox1, bbox2):
+def overlap_rate(bbox1, bbox2):
     width = bbox1[2] - bbox1[0]
     height = bbox1[-1] - bbox1[1]
     
@@ -93,7 +93,7 @@ def overlap_rate(self, bbox1, bbox2):
     
     return sum(condition) / n
 
-def bb_intersection_over_union(self, boxA, boxB):
+def bb_intersection_over_union(boxA, boxB):
     # determine the (x, y)-coordinates of the intersection rectangle
     xA = max(boxA[0], boxB[0])
     yA = max(boxA[1], boxB[1])
@@ -115,7 +115,7 @@ def bb_intersection_over_union(self, boxA, boxB):
     # return the intersection over union value
     return iou    
 
-def remove_duplicate_boxes(self, bbox1_ind, bbox2, out_boxes, out_classes, out_scores, method='overlap'):
+def remove_duplicate_boxes(bbox1_ind, bbox2, out_boxes, out_classes, out_scores, method='overlap'):
     if (method!='overlap' and method!='iou'):
         raise Exception('Remove duplicate boxes: method type must be \'overlap\' or \'iou\'!')
     
@@ -127,7 +127,7 @@ def remove_duplicate_boxes(self, bbox1_ind, bbox2, out_boxes, out_classes, out_s
     if (method=='overlap'):
         for i in bbox1_ind:
             # Calculating the overlapping between the ith element of the bbox1 and the bbox2
-            overlap = self.overlap_rate(out_boxes[i], bbox2[0])
+            overlap = overlap_rate(out_boxes[i], bbox2[0])
             
             if (overlap > larger_overlap):
                 larger_overlap = overlap
@@ -141,7 +141,7 @@ def remove_duplicate_boxes(self, bbox1_ind, bbox2, out_boxes, out_classes, out_s
     else:
         for i in bbox1_ind:
             # Calculating the overlapping between the ith element of the bbox1 and the bbox2
-            overlap = self.bb_intersection_over_union(out_boxes[i], bbox2[0])
+            overlap = bb_intersection_over_union(out_boxes[i], bbox2[0])
             
             if (overlap > larger_overlap):
                 larger_overlap = overlap
