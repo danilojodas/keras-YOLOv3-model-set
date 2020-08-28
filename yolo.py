@@ -17,7 +17,7 @@ from tensorflow.keras.layers import Input, Lambda
 from tensorflow_model_optimization.sparsity import keras as sparsity
 from PIL import Image, ImageFile
 
-from utils import constraints, dendrometrics
+from utils import constraints, dendrometrics, segmentation
 from yolo3.model import get_yolo3_model, get_yolo3_inference_model#, get_yolo3_prenms_model
 from yolo3.postprocess_np import yolo3_postprocess_np
 from yolo2.model import get_yolo2_model, get_yolo2_inference_model
@@ -587,8 +587,14 @@ if __name__ == '__main__':
             dendrometric_valid = dendrometrics.load_dendrometric('utils/dendrometrics_valid.txt')
             dendrometric_list = list()
             
+            # Create output folder if it does not exists
             if (not os.path.exists(output_folder)):
                 os.makedirs(output_folder)
+                
+            # Create output folder with the detected crowns
+            crown_output_folder = os.path.join(output_folder, 'crown')
+            if (not os.path.exists(crown_output_folder)):
+                os.makedirs(crown_output_folder)
                 
             if (os.path.isfile(args.input_image)):
                 file_ = [os.path.basename(args.input_image)]
@@ -607,6 +613,14 @@ if __name__ == '__main__':
                             tree_height = dendrometrics.calculate_dendrometrics(boxes[-1], boxes[0], boxes[1])
                             dendrometric_list.append([f, tree_height, 
                                                       dendrometric_valid[idx_[0],1].astype(float)])
+    
+                        # Crown segmentation (if it existis)
+                        crown = segmentation.crown_segmentation(os.path.join(os.path.dirname(args.input_image),f), 
+                                                                boxes[0], 
+                                                                boxes[1], 
+                                                                yolo.class_names)
+                        if (not crown is None):
+                            cv2.imwrite(os.path.join(crown_output_folder, f), crown)
                 
                 out_file = os.path.join(output_folder,f)
                 try:
