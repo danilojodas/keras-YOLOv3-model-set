@@ -6,6 +6,7 @@ Created on Tue Aug 25 09:42:06 2020
 """
 
 import os
+import math
 import pandas as pd
 import numpy as np
 from collections import defaultdict
@@ -69,6 +70,6 @@ def calculate_dendrometrics(class_names, out_boxes, out_classes):
             crown_height_px = out_boxes[crown[0],-1] - out_boxes[crown[0],1]
             crown_width_px = out_boxes[crown[0],2] - out_boxes[crown[0],0]
             
-            diameter_crown = (crown_width_px / stick_height_px * stick_height_m) * (crown_height_px / stick_height_px * stick_height_m)
+            diameter_crown = math.sqrt(pow(crown_width_px / stick_height_px * stick_height_m,2) + pow(crown_height_px / stick_height_px * stick_height_m,2))
     
     return tree_height_m, diameter_crown
