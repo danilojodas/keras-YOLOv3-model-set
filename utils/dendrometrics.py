@@ -48,17 +48,27 @@ def load_dendrometric(file_name):
 def calculate_dendrometrics(class_names, out_boxes, out_classes):
     idx_tree = class_names.index('tree')
     idx_stick = class_names.index('stick')
+    idx_crown = class_names.index('crown')
     
     tree, = np.where(out_classes == idx_tree)
     stick, = np.where(out_classes == idx_stick)
+    crown, = np.where(out_classes == idx_crown)
+    
+    tree_height_m = 0
+    diameter_crown = 0
     
     if (len(tree) > 0 and len(stick) > 0):
         stick_height_m = 3
-        stick_height_px = out_boxes[stick[0],-1] - out_boxes[stick[0],1]
-        tree_height_px = out_boxes[tree[0],-1] - out_boxes[tree[0],1]
+        stick_height_px = out_boxes[stick[0],-1] - out_boxes[stick[0],1]        
         
-        tree_height_m = (tree_height_px * stick_height_m) / stick_height_px
+        if (len(tree) > 0):                        
+            tree_height_px = out_boxes[tree[0],-1] - out_boxes[tree[0],1]            
+            tree_height_m = (tree_height_px * stick_height_m) / stick_height_px
         
-        return tree_height_m
-    else:
-        return 0
+        if (len(crown) > 0):
+            crown_height_px = out_boxes[crown[0],-1] - out_boxes[crown[0],1]
+            crown_width_px = out_boxes[crown[0],2] - out_boxes[crown[0],0]
+            
+            diameter_crown = (crown_width_px / stick_height_px * stick_height_m) * (crown_height_px / stick_height_px * stick_height_m)
+    
+    return tree_height_m, diameter_crown

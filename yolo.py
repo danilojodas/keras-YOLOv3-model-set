@@ -610,9 +610,10 @@ if __name__ == '__main__':
                         idx_ , = np.where(dendrometric_valid[:,0] == f)
                         
                         if (len(idx_) > 0): # If the validation image has dendrometric features
-                            tree_height = dendrometrics.calculate_dendrometrics(boxes[-1], boxes[0], boxes[1])
-                            dendrometric_list.append([f, tree_height, 
-                                                      dendrometric_valid[idx_[0],1].astype(float)])
+                            tree_height, diameter_crown = dendrometrics.calculate_dendrometrics(boxes[-1], boxes[0], boxes[1])
+                            dendrometric_list.append([f, tree_height, diameter_crown, 
+                                                      dendrometric_valid[idx_[0],1].astype(float),
+                                                      dendrometric_valid[idx_[0],3].astype(float)])
     
                         # Crown segmentation (if it existis)
                         crown = segmentation.crown_segmentation(os.path.join(os.path.dirname(args.input_image),f), 
@@ -632,7 +633,8 @@ if __name__ == '__main__':
             if (len(dendrometric_list) > 0):
                 dendrometric_list = np.vstack(dendrometric_list)
                 np.savetxt(os.path.join(output_folder, 'dendrometric_features.txt'),dendrometric_list,
-                           fmt='%s',delimiter=',', header='image_file,measured_height,true_height')
+                           fmt='%s',delimiter=',', 
+                           header='image_file,auto_height,auto_diameter_crown,manual_height,manual_diameter_crown')
         else:    
             if "input" in args:
                 print(" Ignoring remaining command line arguments: " + args.input + "," + args.output)
