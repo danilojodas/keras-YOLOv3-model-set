@@ -1,0 +1,1 @@
+python yolo.py --model_type=yolo3_mobilenet_lite_spp --weights_path=weights/model_v2.h5 --anchors_path=configs/yolo3_anchors.txt --classes_path=configs/my_classes.txt --model_image_size=416x416 --image --input_image dataset/training/image/ --apply_constraints
