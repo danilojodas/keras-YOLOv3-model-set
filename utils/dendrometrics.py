@@ -37,7 +37,7 @@ def save_dendrometric(image_folder, data_file, out_file='dendrometrics.txt'):
     metrics = np.vstack(metrics)
     
     np.savetxt(out_file, metrics, delimiter=',', fmt='%s',
-               header='Código Árvore, Altura, DAP, Diâmetro Copa, Espécie', )
+               header='Codigo Arvore, Altura, DAP, Diametro Copa, Especie')
 
 def load_dendrometric(file_name):
     try:
