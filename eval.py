@@ -704,11 +704,11 @@ def draw_plot_func(dictionary, n_classes, window_title, plot_title, x_label, out
     # unpacking the list of tuples into two lists
     sorted_keys, sorted_values = zip(*sorted_dic_by_value)
     # change font size of the plot
-    plt.rc('axes', labelsize=12)
-    plt.rc('xtick', labelsize=11)
-    plt.rc('ytick', labelsize=11)
-    plt.rc('legend', fontsize=11)
-    plt.rc('axes', titlesize=14)    
+    plt.rc('axes', labelsize=14)
+    plt.rc('xtick', labelsize=14)
+    plt.rc('ytick', labelsize=14)
+    plt.rc('legend', fontsize=12)
+    plt.rc('axes', titlesize=16)    
     #
     if true_p_bar != "":
         """
@@ -785,7 +785,7 @@ def draw_plot_func(dictionary, n_classes, window_title, plot_title, x_label, out
     # adjust size of window
     fig.tight_layout()
     # save the plot
-    fig.savefig(output_path,format='eps',dpi=300,bbox_inches='tight')
+    fig.savefig(output_path,dpi=300,bbox_inches='tight')
     # show image
     if to_show:
         plt.show()
@@ -876,7 +876,7 @@ def plot_Pascal_AP_result(count_images, count_true_positives, num_classes,
     plot_title += str(count_non_zero_values_in_dictionary) + " detected classes)"
     # end Plot title
     x_label = "Number of objects per class"
-    output_path = os.path.join('result','Predicted_Objects_Info.eps')
+    output_path = os.path.join('result','Predicted_Objects_Info.png')
     draw_plot_func(pred_counter_per_class, len(pred_counter_per_class), window_title, plot_title, x_label, output_path, to_show=False, plot_color='forestgreen', true_p_bar=count_true_positives)
 
     '''
@@ -885,7 +885,7 @@ def plot_Pascal_AP_result(count_images, count_true_positives, num_classes,
     window_title = "mAP"
     plot_title = "mAP@IoU={0}: {1:.2f}%".format(iou_threshold, mAP)
     x_label = "Average Precision"
-    output_path = os.path.join('result','mAP.eps')
+    output_path = os.path.join('result','mAP.png')
     draw_plot_func(APs, num_classes, window_title, plot_title, x_label, output_path, to_show=False, plot_color='royalblue', true_p_bar='')
 
     '''
@@ -894,7 +894,7 @@ def plot_Pascal_AP_result(count_images, count_true_positives, num_classes,
     window_title = "Precision"
     plot_title = "mPrec@IoU={0}: {1:.2f}%".format(iou_threshold, mPrec)
     x_label = "Precision rate"
-    output_path = os.path.join('result','Precision.eps')
+    output_path = os.path.join('result','Precision.png')
     draw_plot_func(precision_dict, len(precision_dict), window_title, plot_title, x_label, output_path, to_show=False, plot_color='royalblue', true_p_bar='')
 
     '''
@@ -903,7 +903,7 @@ def plot_Pascal_AP_result(count_images, count_true_positives, num_classes,
     window_title = "Recall"
     plot_title = "mRec@IoU={0}: {1:.2f}%".format(iou_threshold, mRec)
     x_label = "Recall rate"
-    output_path = os.path.join('result','Recall.eps')
+    output_path = os.path.join('result','Recall.png')
     draw_plot_func(recall_dict, len(recall_dict), window_title, plot_title, x_label, output_path, to_show=False, plot_color='royalblue', true_p_bar='')
 
 
