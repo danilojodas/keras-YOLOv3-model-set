@@ -603,6 +603,13 @@ def draw_rec_prec(rec, prec, mrec, mprec, class_name, ap):
     """
      Draw plot
     """
+    # change font size of the plot
+    plt.rc('axes', labelsize=14)
+    plt.rc('xtick', labelsize=14)
+    plt.rc('ytick', labelsize=14)
+    plt.rc('legend', fontsize=12)
+    plt.rc('axes', titlesize=16)
+    
     plt.plot(rec, prec, '-o')
     # add a new penultimate point to the list (mrec[-2], 0.0)
     # since the last line segment (and respective area) do not affect the AP value
