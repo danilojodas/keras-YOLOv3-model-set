@@ -629,7 +629,7 @@ def draw_rec_prec(rec, prec, mrec, mprec, class_name, ap):
     # save the plot
     rec_prec_plot_path = os.path.join('result','classes')
     os.makedirs(rec_prec_plot_path, exist_ok=True)
-    fig.savefig(os.path.join(rec_prec_plot_path, class_name + ".eps"),dpi=300,bbox_inches='tight')
+    fig.savefig(os.path.join(rec_prec_plot_path, class_name + ".png"),dpi=300,bbox_inches='tight')
     plt.cla() # clear axes for next plot
 
 
@@ -722,7 +722,7 @@ def draw_plot_func(dictionary, n_classes, window_title, plot_title, x_label, out
         plt.barh(range(n_classes), fp_sorted, align='center', color='crimson', label='False Predictions')
         plt.barh(range(n_classes), tp_sorted, align='center', color='forestgreen', label='True Predictions', left=fp_sorted)
         # add legend
-        plt.legend(loc='lower right')
+        plt.legend(loc='lower right',ncol=2)
         """
          Write number on side of bar
         """
